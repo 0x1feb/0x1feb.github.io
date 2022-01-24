@@ -5,6 +5,16 @@
     <link>https://0x1feb.github.io/tags/</link>
     <description>Recent content in Tags on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Mon, 24 Jan 2022 22:00:00 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 8</title>
+      <link>https://0x1feb.github.io/tags/java-8/</link>
+      <pubDate>Mon, 24 Jan 2022 22:00:00 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/tags/java-8/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

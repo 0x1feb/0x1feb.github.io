@@ -4,12 +4,37 @@
   
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2022-01-21T22:35:12+09:00</lastmod>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2022-01-21T22:35:12+09:00</lastmod>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://0x1feb.github.io/categories/java/</loc>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://0x1feb.github.io/tags/java-8/</loc>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://0x1feb.github.io/posts/2022/01/24/java-stream-memo/</loc>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2022-01-24T22:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -23,20 +48,11 @@
   </url>
   
   <url>
-    <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2022-01-21T22:35:12+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://0x1feb.github.io/archives/</loc>
   </url>
   
   <url>
     <loc>https://0x1feb.github.io/search/</loc>
-  </url>
-  
-  <url>
-    <loc>https://0x1feb.github.io/tags/</loc>
   </url>
   
 </urlset>
