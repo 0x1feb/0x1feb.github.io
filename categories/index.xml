@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Oct 2022 21:14:34 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 20:55:55 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>algorithm</title>
+      <link>https://0x1feb.github.io/categories/algorithm/</link>
+      <pubDate>Sun, 18 Dec 2022 20:55:55 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>C&#43;&#43;</title>
       <link>https://0x1feb.github.io/categories/c&#43;&#43;/</link>
