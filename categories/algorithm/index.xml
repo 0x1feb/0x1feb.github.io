@@ -6,7 +6,16 @@
     <description>Recent content in algorithm on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 Dec 2022 20:55:55 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 09:12:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>素数列挙 (エラトステネスの篩)</title>
+      <link>https://0x1feb.github.io/posts/2022/12/20/sieve-of-eratosthenes/</link>
+      <pubDate>Tue, 20 Dec 2022 09:12:51 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2022/12/20/sieve-of-eratosthenes/</guid>
+      <description>エラトステネスの篩とは、指定した数以下の素数を探すアルゴリズムである。 指定した数までの数列を用意し、素数を見つけたらその素数の倍数を篩い落と</description>
+    </item>
+    
     <item>
       <title>bit 全探索</title>
       <link>https://0x1feb.github.io/posts/2022/12/18/bit-full-search/</link>
