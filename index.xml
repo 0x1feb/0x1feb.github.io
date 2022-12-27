@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 25 Dec 2022 14:02:50 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Dec 2022 21:32:09 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最大公約数 (ユークリッドの互除法)</title>
+      <link>https://0x1feb.github.io/posts/2022/12/27/euclidean-algorithm/</link>
+      <pubDate>Tue, 27 Dec 2022 21:32:09 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2022/12/27/euclidean-algorithm/</guid>
+      <description>ユークリッドの互除法とは、2つの自然数の最大公約数を求めるアルゴリズムである。 ソースコード #include &amp;lt;bits/stdc++.h&amp;gt;using namespace std; int gcd(int a, int b) { return (b == 0 ? a : gcd(b, a % b)); } int main() {</description>
+    </item>
+    
     <item>
       <title>二分探索 (binary search)</title>
       <link>https://0x1feb.github.io/posts/2022/12/25/binary-search/</link>
