@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Jan 2023 19:46:02 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 23:09:35 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git における過去コミットの修正</title>
+      <link>https://0x1feb.github.io/posts/2023/01/05/modifying-past-commit/</link>
+      <pubDate>Thu, 05 Jan 2023 23:09:35 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/01/05/modifying-past-commit/</guid>
+      <description>注意点 過去のコミットを修正すると、修正したコミット以降のハッシュ値が変わる。そのため、GitHub 等のリモートリポジトリに push するときは、pu</description>
+    </item>
+    
     <item>
       <title>バブルソート (Bubble sort)</title>
       <link>https://0x1feb.github.io/posts/2023/01/04/bubble-sort/</link>

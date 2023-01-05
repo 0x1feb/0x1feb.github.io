@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on 0x1feb</title>
+    <link>https://0x1feb.github.io/categories/git/</link>
+    <description>Recent content in Git on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 05 Jan 2023 23:09:35 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git における過去コミットの修正</title>
+      <link>https://0x1feb.github.io/posts/2023/01/05/modifying-past-commit/</link>
+      <pubDate>Thu, 05 Jan 2023 23:09:35 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/01/05/modifying-past-commit/</guid>
+      <description>注意点 過去のコミットを修正すると、修正したコミット以降のハッシュ値が変わる。そのため、GitHub 等のリモートリポジトリに push するときは、pu</description>
+    </item>
+    
+  </channel>
+</rss>
