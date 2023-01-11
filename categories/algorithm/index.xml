@@ -6,7 +6,16 @@
     <description>Recent content in algorithm on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Jan 2023 23:13:19 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 06:57:32 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>クイックソート (Quick Sort)</title>
+      <link>https://0x1feb.github.io/posts/2023/01/12/quick-sort/</link>
+      <pubDate>Thu, 12 Jan 2023 06:57:32 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/01/12/quick-sort/</guid>
+      <description>クイックソートとは、適当な数を基準として、小さい値と大きい値に分割することを繰り返すソートアルゴリズムである。 ソースコード #include &amp;lt;bits/stdc++.h&amp;gt;#define rep(i, n) for (int i = 0;</description>
+    </item>
+    
     <item>
       <title>マージソート (Merge Sort)</title>
       <link>https://0x1feb.github.io/posts/2023/01/06/merge-sort/</link>
