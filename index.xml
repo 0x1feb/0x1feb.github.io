@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Feb 2023 00:47:24 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Feb 2023 19:15:33 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>バケットソート (Bucket Sort)</title>
+      <link>https://0x1feb.github.io/posts/2023/02/16/backet-sort/</link>
+      <pubDate>Thu, 16 Feb 2023 19:15:33 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/02/16/backet-sort/</guid>
+      <description>バケットソートとは、整列したいデータがとりうる値の数だけバケツを用意し、全ての要素をバケツに入れた後、順番に取り出すソートアルゴリズムである</description>
+    </item>
+    
     <item>
       <title>前例に倣うことの功罪</title>
       <link>https://0x1feb.github.io/posts/2023/02/13/the-merits-and-demerits-of-following-precedent/</link>
