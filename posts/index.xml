@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 16 Feb 2023 19:15:33 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 12:29:36 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Legacy BIOS を UEFI に変更する</title>
+      <link>https://0x1feb.github.io/posts/2023/03/18/change-legacy-bios-to-uefi/</link>
+      <pubDate>Sat, 18 Mar 2023 12:29:36 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/03/18/change-legacy-bios-to-uefi/</guid>
+      <description>背景 Windows 10 から Windows 11 にアップグレードしたい。 Windows 11 のシステム要件であるセキュアブートを満たしていなかった。 Legacy BIOS で Windows 10 をインストールしていた。 Windows 10 が</description>
+    </item>
+    
     <item>
       <title>バケットソート (Bucket Sort)</title>
       <link>https://0x1feb.github.io/posts/2023/02/16/backet-sort/</link>
