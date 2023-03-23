@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Mar 2023 14:49:48 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 23:24:26 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT が出てきて考えたこと</title>
+      <link>https://0x1feb.github.io/posts/2023/03/23/things-i-thought-about-chatgpt/</link>
+      <pubDate>Thu, 23 Mar 2023 23:24:26 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/03/23/things-i-thought-about-chatgpt/</guid>
+      <description>背景 ChatGPT をしばらく使ってみたので、今時点で思ったことを記録しておきたい。 これからもっと進化していきそうなので、今考えていることを後で振り返った</description>
+    </item>
+    
     <item>
       <title>Firefox の上部にあるタブを非表示にする</title>
       <link>https://0x1feb.github.io/posts/2023/03/22/hide-the-horizontal-tabs-at-the-top-of-the-firefox-window/</link>
