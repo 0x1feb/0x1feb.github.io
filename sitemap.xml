@@ -1,233 +1,141 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://0x1feb.github.io/</loc>
     <lastmod>2023-03-27T21:44:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
     <lastmod>2023-03-27T21:44:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/git/</loc>
     <lastmod>2023-03-27T21:44:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/03/27/setting-up-ssh-keys-for-github/</loc>
     <lastmod>2023-03-27T21:44:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/</loc>
     <lastmod>2023-03-27T21:44:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/ai/</loc>
     <lastmod>2023-03-23T23:24:26+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/chatgpt/</loc>
     <lastmod>2023-03-23T23:24:26+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/03/23/things-i-thought-about-chatgpt/</loc>
     <lastmod>2023-03-23T23:24:26+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2023-03-23T23:24:26+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/thoughts/</loc>
     <lastmod>2023-03-23T23:24:26+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/firefox/</loc>
     <lastmod>2023-03-22T14:49:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/03/22/hide-the-horizontal-tabs-at-the-top-of-the-firefox-window/</loc>
     <lastmod>2023-03-22T14:49:48+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/computer/</loc>
     <lastmod>2023-03-19T14:27:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/03/19/replace-cpu/</loc>
     <lastmod>2023-03-19T14:27:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/windows-10/</loc>
     <lastmod>2023-03-19T14:27:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/windows-11/</loc>
     <lastmod>2023-03-19T14:27:01+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/03/18/change-legacy-bios-to-uefi/</loc>
     <lastmod>2023-03-18T12:29:36+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/algorithm/</loc>
     <lastmod>2023-02-16T19:15:33+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/02/16/backet-sort/</loc>
     <lastmod>2023-02-16T19:15:33+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/02/13/the-merits-and-demerits-of-following-precedent/</loc>
     <lastmod>2023-02-13T00:47:24+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/regexp/</loc>
     <lastmod>2023-02-04T17:47:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/02/04/regular-expression/</loc>
     <lastmod>2023-02-04T17:47:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/12/quick-sort/</loc>
     <lastmod>2023-01-12T06:57:32+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/06/merge-sort/</loc>
     <lastmod>2023-01-06T23:13:19+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/05/modifying-past-commit/</loc>
     <lastmod>2023-01-05T23:09:35+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/04/bubble-sort/</loc>
     <lastmod>2023-01-04T19:46:02+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/android/</loc>
     <lastmod>2023-01-03T17:43:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/android/</loc>
     <lastmod>2023-01-03T17:43:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/03/basic-android-kotlin-compose-first-app/</loc>
     <lastmod>2023-01-03T17:43:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/kotlin/</loc>
     <lastmod>2023-01-03T17:43:15+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/29/insertion-sort/</loc>
     <lastmod>2022-12-29T11:37:28+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/27/euclidean-algorithm/</loc>
     <lastmod>2022-12-27T21:32:09+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/25/binary-search/</loc>
     <lastmod>2022-12-25T14:02:50+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/21/knapsack-dp/</loc>
     <lastmod>2022-12-21T09:22:53+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/20/sieve-of-eratosthenes/</loc>
     <lastmod>2022-12-20T09:12:51+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/12/18/bit-full-search/</loc>
     <lastmod>2022-12-18T20:55:55+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/c&#43;&#43;/</loc>
     <lastmod>2022-10-26T21:14:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/10/26/cpp-map-memo/</loc>
     <lastmod>2022-10-26T21:14:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/java/</loc>
     <lastmod>2022-01-27T22:28:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/tags/java-8/</loc>
     <lastmod>2022-01-27T22:28:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/01/27/combining-multi-elements-in-java-stream/</loc>
     <lastmod>2022-01-27T22:28:34+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/01/24/java-stream-memo/</loc>
     <lastmod>2022-01-24T22:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/posts/2022/01/21/hello-world/</loc>
     <lastmod>2022-01-21T22:35:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/categories/others/</loc>
     <lastmod>2022-01-21T22:35:12+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/archives/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://0x1feb.github.io/search/</loc>
   </url>
-  
 </urlset>
