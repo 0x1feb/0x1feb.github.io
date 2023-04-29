@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Mar 2023 21:44:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2023 21:16:36 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>幅優先探索 (Breadth-first search / BFS)</title>
+      <link>https://0x1feb.github.io/posts/2023/04/27/breadth-first-search/</link>
+      <pubDate>Thu, 27 Apr 2023 21:16:36 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/04/27/breadth-first-search/</guid>
+      <description>概要 幅優先探索とは、グラフの探索等に用いられる探索アルゴリズムである。ある頂点をスタートとし、その点に隣接する全ての点を探索する。探索したそ</description>
+    </item>
+    
     <item>
       <title>GitHub への SSH 接続を再設定する</title>
       <link>https://0x1feb.github.io/posts/2023/03/27/setting-up-ssh-keys-for-github/</link>
