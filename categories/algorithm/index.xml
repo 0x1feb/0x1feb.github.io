@@ -6,7 +6,16 @@
     <description>Recent content in algorithm on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 27 Apr 2023 21:16:36 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Aug 2023 21:33:25 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深さ優先探索 (Breadth-first search / DFS)</title>
+      <link>https://0x1feb.github.io/posts/2023/08/27/depth-first-search/</link>
+      <pubDate>Sun, 27 Aug 2023 21:33:25 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/08/27/depth-first-search/</guid>
+      <description>概要 深さ優先探索とは、グラフの探索等に用いられる探索アルゴリズムである。ある頂点をスタートとし、その点から探索可能な点を探索する。探索したそ</description>
+    </item>
+    
     <item>
       <title>幅優先探索 (Breadth-first search / BFS)</title>
       <link>https://0x1feb.github.io/posts/2023/04/27/breadth-first-search/</link>
