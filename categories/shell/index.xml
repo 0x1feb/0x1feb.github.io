@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shell on 0x1feb</title>
+    <link>https://0x1feb.github.io/categories/shell/</link>
+    <description>Recent content in shell on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 26 Nov 2023 12:17:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows の PowerShell をアップグレードする</title>
+      <link>https://0x1feb.github.io/posts/2023/11/26/how-to-upgrade-powershell/</link>
+      <pubDate>Sun, 26 Nov 2023 12:17:27 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/11/26/how-to-upgrade-powershell/</guid>
+      <description>概要 Windows の PowerShell を新しいバージョンにアップグレードする。 前提 Windows 11 PowerShell のバージョン アップグレード前: 7.3.9 アップグレード後: 7.4.0 手順 最新バージョンを確認する</description>
+    </item>
+    
+  </channel>
+</rss>

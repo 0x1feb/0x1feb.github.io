@@ -6,7 +6,16 @@
     <description>Recent content in Windows 11 on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Mar 2023 14:27:01 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Nov 2023 12:17:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows の PowerShell をアップグレードする</title>
+      <link>https://0x1feb.github.io/posts/2023/11/26/how-to-upgrade-powershell/</link>
+      <pubDate>Sun, 26 Nov 2023 12:17:27 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2023/11/26/how-to-upgrade-powershell/</guid>
+      <description>概要 Windows の PowerShell を新しいバージョンにアップグレードする。 前提 Windows 11 PowerShell のバージョン アップグレード前: 7.3.9 アップグレード後: 7.4.0 手順 最新バージョンを確認する</description>
+    </item>
+    
     <item>
       <title>Ryzen 5 1600 を Ryzen 5 5500 に交換する</title>
       <link>https://0x1feb.github.io/posts/2023/03/19/replace-cpu/</link>
