@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>laptop on 0x1feb</title>
+    <link>https://0x1feb.github.io/tags/laptop/</link>
+    <description>Recent content in laptop on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 Jan 2024 21:47:32 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/laptop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ThinkPad E14 Gen 5 AMD にメモリと SSD を増設する</title>
+      <link>https://0x1feb.github.io/posts/2024/01/01/adding-memory-and-ssd-to-thinkpad-e14-gen-5-amd/</link>
+      <pubDate>Mon, 01 Jan 2024 21:47:32 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/01/01/adding-memory-and-ssd-to-thinkpad-e14-gen-5-amd/</guid>
+      <description>概要 ThinkPad E14 Gen 5 AMD にメモリと SSD を増設した。 自分で分解するため、自己責任で行うこと。 前提 本体: ThinkPad E14 Gen 5 AMD (21JRCTO1WWJP2) メモリ: Crucial 16GB DDR4-3200 SODIMM (CT16G4SFRA32A) 購入時にカスタマイズで</description>
+    </item>
+    
+  </channel>
+</rss>
