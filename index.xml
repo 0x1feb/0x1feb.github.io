@@ -44,15 +44,6 @@
     </item>
     
     <item>
-      <title>ChatGPT が出てきて考えたこと</title>
-      <link>https://0x1feb.github.io/posts/2023/03/23/things-i-thought-about-chatgpt/</link>
-      <pubDate>Thu, 23 Mar 2023 23:24:26 +0900</pubDate>
-      
-      <guid>https://0x1feb.github.io/posts/2023/03/23/things-i-thought-about-chatgpt/</guid>
-      <description>背景 ChatGPT をしばらく使ってみたので、今時点で思ったことを記録しておきたい。 これからもっと進化していきそうなので、今考えていることを後で振り返った</description>
-    </item>
-    
-    <item>
       <title>Firefox の上部にあるタブを非表示にする</title>
       <link>https://0x1feb.github.io/posts/2023/03/22/hide-the-horizontal-tabs-at-the-top-of-the-firefox-window/</link>
       <pubDate>Wed, 22 Mar 2023 14:49:48 +0900</pubDate>
@@ -86,15 +77,6 @@
       
       <guid>https://0x1feb.github.io/posts/2023/02/16/backet-sort/</guid>
       <description>バケットソートとは、整列したいデータがとりうる値の数だけバケツを用意し、全ての要素をバケツに入れた後、順番に取り出すソートアルゴリズムである</description>
-    </item>
-    
-    <item>
-      <title>前例に倣うことの功罪</title>
-      <link>https://0x1feb.github.io/posts/2023/02/13/the-merits-and-demerits-of-following-precedent/</link>
-      <pubDate>Mon, 13 Feb 2023 00:47:24 +0900</pubDate>
-      
-      <guid>https://0x1feb.github.io/posts/2023/02/13/the-merits-and-demerits-of-following-precedent/</guid>
-      <description>前例に倣う 前例に倣うとは、何かに取り組むとき、これまでのやり方があるならば、それに倣った通りにやることである。仕事ではよくあることだが、過去</description>
     </item>
     
     <item>
