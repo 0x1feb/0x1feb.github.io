@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-01-01T21:47:32+09:00</lastmod>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/android/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/android/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-01-01T21:47:32+09:00</lastmod>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/01/02/mirroring-android-to-pc-via-wi-fi/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/windows-11/</loc>
+    <lastmod>2024-01-02T20:55:20+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/computer/</loc>
     <lastmod>2024-01-01T21:47:32+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/laptop/</loc>
-    <lastmod>2024-01-01T21:47:32+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2024-01-01T21:47:32+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2024-01-01T21:47:32+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/01/01/adding-memory-and-ssd-to-thinkpad-e14-gen-5-amd/</loc>
@@ -27,9 +39,6 @@
     <lastmod>2023-11-26T12:17:27+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/shell/</loc>
-    <lastmod>2023-11-26T12:17:27+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/windows-11/</loc>
     <lastmod>2023-11-26T12:17:27+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2023/11/26/how-to-upgrade-powershell/</loc>
@@ -85,12 +94,6 @@
   </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/04/bubble-sort/</loc>
     <lastmod>2023-01-04T19:46:02+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/android/</loc>
-    <lastmod>2023-01-03T17:43:15+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/categories/android/</loc>
-    <lastmod>2023-01-03T17:43:15+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2023/01/03/basic-android-kotlin-compose-first-app/</loc>
     <lastmod>2023-01-03T17:43:15+09:00</lastmod>

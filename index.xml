@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jan 2024 21:47:32 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jan 2024 20:55:20 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wi-Fi 経由で Android 端末を PC へミラーリングする</title>
+      <link>https://0x1feb.github.io/posts/2024/01/02/mirroring-android-to-pc-via-wi-fi/</link>
+      <pubDate>Tue, 02 Jan 2024 20:55:20 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/01/02/mirroring-android-to-pc-via-wi-fi/</guid>
+      <description>概要 Wi-Fi 経由で Android 端末を PC へミラーリングする。 Android 端末の画面をキャプチャできる。 PC から Android 端末を操作できる。 前提 Android 端末: Pixel 6a (Android 11) PC: Windows 11 Software: scrcpy 2.3.1 手順 PC に</description>
+    </item>
+    
     <item>
       <title>ThinkPad E14 Gen 5 AMD にメモリと SSD を増設する</title>
       <link>https://0x1feb.github.io/posts/2024/01/01/adding-memory-and-ssd-to-thinkpad-e14-gen-5-amd/</link>
