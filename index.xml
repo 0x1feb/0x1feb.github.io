@@ -13,7 +13,7 @@
       <pubDate>Tue, 02 Jan 2024 20:55:20 +0900</pubDate>
       
       <guid>https://0x1feb.github.io/posts/2024/01/02/mirroring-android-to-pc-via-wi-fi/</guid>
-      <description>概要 Wi-Fi 経由で Android 端末を PC へミラーリングする。 Android 端末の画面をキャプチャできる。 PC から Android 端末を操作できる。 前提 Android 端末: Pixel 6a (Android 11) PC: Windows 11 Software: scrcpy 2.3.1 手順 PC に</description>
+      <description>概要 Wi-Fi 経由で Android 端末を PC へミラーリングする。 Android 端末の画面をキャプチャできる。 PC から Android 端末を操作できる。 前提 Android 端末: Pixel 6a (Android 14) PC: Windows 11 Software: scrcpy 2.3.1 手順 PC に</description>
     </item>
     
     <item>
