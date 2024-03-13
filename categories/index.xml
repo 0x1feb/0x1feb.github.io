@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Jan 2024 20:55:20 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Mar 2024 09:26:44 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shell script</title>
+      <link>https://0x1feb.github.io/categories/shell-script/</link>
+      <pubDate>Wed, 13 Mar 2024 09:26:44 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/shell-script/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Android</title>
       <link>https://0x1feb.github.io/categories/android/</link>
