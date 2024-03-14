@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ubuntu on 0x1feb</title>
+    <link>https://0x1feb.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:10:19 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04.4 LTS にて Wake on LAN を設定する</title>
+      <link>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</link>
+      <pubDate>Fri, 15 Mar 2024 00:10:19 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</guid>
+      <description>概要 Ubuntu 22.04.4 LTS にて Wake on LAN を設定する。 PC の電源を落としていても、WOL パケットを送信することで、電源を入れることができるようになる。 前提 $ lsb_release -d Description: Ubuntu</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 13 Mar 2024 09:26:44 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 00:10:19 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04.4 LTS にて Wake on LAN を設定する</title>
+      <link>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</link>
+      <pubDate>Fri, 15 Mar 2024 00:10:19 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</guid>
+      <description>概要 Ubuntu 22.04.4 LTS にて Wake on LAN を設定する。 PC の電源を落としていても、WOL パケットを送信することで、電源を入れることができるようになる。 前提 $ lsb_release -d Description: Ubuntu</description>
+    </item>
+    
     <item>
       <title>bash のシェルスクリプトの実行結果をログ出力する</title>
       <link>https://0x1feb.github.io/posts/2024/03/13/outputting-timestamped-logs-in-a-bash-shell-script/</link>
