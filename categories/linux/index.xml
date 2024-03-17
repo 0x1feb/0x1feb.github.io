@@ -6,7 +6,16 @@
     <description>Recent content in Linux on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:10:19 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Mar 2024 22:21:25 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04.4 LTS で HDD/SSD をフォーマットする</title>
+      <link>https://0x1feb.github.io/posts/2024/03/17/formatting-hdd/ssd-on-ubuntu-22.04.4-lts/</link>
+      <pubDate>Sun, 17 Mar 2024 22:21:25 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/03/17/formatting-hdd/ssd-on-ubuntu-22.04.4-lts/</guid>
+      <description>概要 新たに SSD を追加したため、フォーマットする。 前提 $ lsb_release -d Description: Ubuntu 22.04.4 LTS 手順 パーティション作成 パーティションを確認する。 $ sudo parted -l Error: /dev/sda: unrecognised disk label Model: ATA SPCC Solid State</description>
+    </item>
+    
     <item>
       <title>Ubuntu 22.04.4 LTS にて Wake on LAN を設定する</title>
       <link>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</link>
