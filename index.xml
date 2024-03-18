@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 17 Mar 2024 22:21:25 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 23:41:14 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows と Ubuntu のデュアルブート中に起動順序を変更する</title>
+      <link>https://0x1feb.github.io/posts/2024/03/18/changing-the-boot-order-in-windows-and-ubuntu-dual-boot-configuration/</link>
+      <pubDate>Mon, 18 Mar 2024 23:41:14 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/03/18/changing-the-boot-order-in-windows-and-ubuntu-dual-boot-configuration/</guid>
+      <description>概要 以下をデュアルブートしている。 Ubuntu 22.04.4 LTS Windows 11 Pro メインは Ubuntu であり、Ubuntu → Windows の起動順を設定している。 基本的には Wake on LAN で起動し、SSH で Ubuntu</description>
+    </item>
+    
     <item>
       <title>Ubuntu 22.04.4 LTS で HDD/SSD をフォーマットする</title>
       <link>https://0x1feb.github.io/posts/2024/03/17/formatting-hdd/ssd-on-ubuntu-22.04.4-lts/</link>
