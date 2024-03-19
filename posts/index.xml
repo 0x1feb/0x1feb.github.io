@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Mar 2024 23:41:14 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 23:26:13 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu のタイムゾーンを変更する</title>
+      <link>https://0x1feb.github.io/posts/2024/03/19/changing-the-time-zone-in-ubuntu/</link>
+      <pubDate>Tue, 19 Mar 2024 23:26:13 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/03/19/changing-the-time-zone-in-ubuntu/</guid>
+      <description>概要 Ubuntu の時刻が日本時間になっていないため、日本時間を設定する。 Windows と Ubuntu をデュアルブートしているとき、時刻がずれないようにしたい。 今回は Ubuntu 側の設</description>
+    </item>
+    
     <item>
       <title>Windows と Ubuntu のデュアルブート中に起動順序を変更する</title>
       <link>https://0x1feb.github.io/posts/2024/03/18/changing-the-boot-order-in-windows-and-ubuntu-dual-boot-configuration/</link>
