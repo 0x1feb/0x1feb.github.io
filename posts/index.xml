@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 Mar 2024 22:54:38 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Apr 2024 11:05:48 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SoftEther VPN Server を動かしているサーバ上の Samba や SSH に VPN 経由で接続する</title>
+      <link>https://0x1feb.github.io/posts/2024/04/14/connecting-to-samba-and-ssh-on-the-server-running-softether-vpn-server-via-vpn/</link>
+      <pubDate>Sun, 14 Apr 2024 11:05:48 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/04/14/connecting-to-samba-and-ssh-on-the-server-running-softether-vpn-server-via-vpn/</guid>
+      <description>概要 Ubuntu Server に SoftEther VPN Server をインストールしている。 同じサーバ上で Samba によるファイル共有サービス等を動かしている。 VPN 接続すると、Samba の共有ディレクト</description>
+    </item>
+    
     <item>
       <title>Ubuntu 22.04.4 LTS に SoftEther VPN Server をインストールする</title>
       <link>https://0x1feb.github.io/posts/2024/03/21/installing-softether-vpn-server-on-ubuntu-22.04.4-lts/</link>
