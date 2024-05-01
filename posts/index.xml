@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Apr 2024 23:17:57 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 22:49:24 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rsync で特定ディレクトリを日次で差分バックアップする</title>
+      <link>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</link>
+      <pubDate>Wed, 01 May 2024 22:49:24 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</guid>
+      <description>概要 rsync を使って、特定ディレクトリのバックアップを日次で取得する。 前回分の差分のみ実ファイルを取得し、変更のないファイルはハードリンクとする。</description>
+    </item>
+    
     <item>
       <title>Ubuntu 22.04 LTS に NGINX をインストールする</title>
       <link>https://0x1feb.github.io/posts/2024/04/24/installing-nginx-on-ubuntu-22.04-lts/</link>

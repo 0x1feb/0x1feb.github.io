@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/linux/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/nginx/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</loc>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/</loc>
-    <lastmod>2024-04-24T23:17:57+09:00</lastmod>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/ubuntu/</loc>
+    <lastmod>2024-05-01T22:49:24+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/nginx/</loc>
     <lastmod>2024-04-24T23:17:57+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/04/24/installing-nginx-on-ubuntu-22.04-lts/</loc>
