@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 May 2024 22:49:24 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 16:03:44 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSD の SMART を調べる</title>
+      <link>https://0x1feb.github.io/posts/2024/06/23/check-ssd-smart/</link>
+      <pubDate>Sun, 23 Jun 2024 16:03:44 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/06/23/check-ssd-smart/</guid>
+      <description>概要 SSD の SMART 情報を表示し、故障してないか調べる。 前提 Ubuntu 22.04 LTS smartctl 7.2 手順 インストール sudo apt install smartmontools ディスクの検索 smartctl --scan /dev/sdb -d sat # /dev/sdb [SAT], ATA device /dev/sdc -d scsi # /dev/sdc, SCSI device /dev/nvme0 -d nvme #</description>
+    </item>
+    
     <item>
       <title>rsync で特定ディレクトリを日次で差分バックアップする</title>
       <link>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</link>
