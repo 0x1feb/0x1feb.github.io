@@ -6,7 +6,16 @@
     <description>Recent content in Ubuntu on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Jun 2024 09:41:53 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2024 09:49:07 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ディスクのマウントが不安定なので原因を調べた</title>
+      <link>https://0x1feb.github.io/posts/2024/06/27/investigating-the-cause-of-an-unstable-disk-mount/</link>
+      <pubDate>Thu, 27 Jun 2024 09:49:07 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/06/27/investigating-the-cause-of-an-unstable-disk-mount/</guid>
+      <description>概要 SSD を /data にマウントしているが、/data 配下のファイルアクセスに失敗することがある。 特定ファイルが読み取り専用扱いになり、更新できなくなる</description>
+    </item>
+    
     <item>
       <title>Ubuntu で SSTP を使用して VPN 接続する</title>
       <link>https://0x1feb.github.io/posts/2024/06/25/connecting-to-a-vpn-using-sstp-on-ubuntu/</link>
