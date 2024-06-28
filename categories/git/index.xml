@@ -6,7 +6,16 @@
     <description>Recent content in Git on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Mar 2023 21:44:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jun 2024 10:54:04 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ローカル環境に Git のリモートリポジトリを作成する</title>
+      <link>https://0x1feb.github.io/posts/2024/06/28/creating-a-git-remote-repository-in-a-local-enviroment/</link>
+      <pubDate>Fri, 28 Jun 2024 10:54:04 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/06/28/creating-a-git-remote-repository-in-a-local-enviroment/</guid>
+      <description>概要 ローカル環境に Git のリモートリポジトリを作成し、push や pull で管理できるようにする。 前提 git version 2.45.2 手順 リモートリポジトリの作成 リモートリポジト</description>
+    </item>
+    
     <item>
       <title>GitHub への SSH 接続を再設定する</title>
       <link>https://0x1feb.github.io/posts/2023/03/27/setting-up-ssh-keys-for-github/</link>

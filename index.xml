@@ -6,7 +6,16 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 27 Jun 2024 09:49:07 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jun 2024 10:54:04 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ローカル環境に Git のリモートリポジトリを作成する</title>
+      <link>https://0x1feb.github.io/posts/2024/06/28/creating-a-git-remote-repository-in-a-local-enviroment/</link>
+      <pubDate>Fri, 28 Jun 2024 10:54:04 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/06/28/creating-a-git-remote-repository-in-a-local-enviroment/</guid>
+      <description>概要 ローカル環境に Git のリモートリポジトリを作成し、push や pull で管理できるようにする。 前提 git version 2.45.2 手順 リモートリポジトリの作成 リモートリポジト</description>
+    </item>
+    
     <item>
       <title>ディスクのマウントが不安定なので原因を調べた</title>
       <link>https://0x1feb.github.io/posts/2024/06/27/investigating-the-cause-of-an-unstable-disk-mount/</link>
