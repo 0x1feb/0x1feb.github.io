@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 03 Jul 2024 22:57:44 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 21:16:53 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tailscale で自宅 LAN に VPN 接続する</title>
+      <link>https://0x1feb.github.io/posts/2024/07/07/connecting-to-home-lan-with-tailscale/</link>
+      <pubDate>Sun, 07 Jul 2024 21:16:53 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/07/07/connecting-to-home-lan-with-tailscale/</guid>
+      <description>概要 tailscale で自宅サーバを VPN サーバとして使用する。 外部ネットワークから、自宅サーバ上で動かしている各サービスを利用する。 tailscale のネットワーク (100.64.0.0/10) で自宅サ</description>
+    </item>
+    
     <item>
       <title>CSS grid layout を使って div 要素を配置する</title>
       <link>https://0x1feb.github.io/posts/2024/07/03/using-css-grid-layout-to-position-div-elements/</link>
