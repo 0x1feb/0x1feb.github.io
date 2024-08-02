@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jul 2024 21:16:53 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jakarta EE</title>
+      <link>https://0x1feb.github.io/categories/jakarta-ee/</link>
+      <pubDate>Fri, 02 Aug 2024 14:00:10 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/jakarta-ee/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>network</title>
       <link>https://0x1feb.github.io/categories/network/</link>

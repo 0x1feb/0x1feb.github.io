@@ -3,15 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-07-07T21:16:53+09:00</lastmod>
+    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-07-07T21:16:53+09:00</lastmod>
+    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
   </url><url>
-    <loc>https://0x1feb.github.io/categories/network/</loc>
-    <lastmod>2024-07-07T21:16:53+09:00</lastmod>
+    <loc>https://0x1feb.github.io/categories/jakarta-ee/</loc>
+    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</loc>
+    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/network/</loc>
     <lastmod>2024-07-07T21:16:53+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/07/07/connecting-to-home-lan-with-tailscale/</loc>

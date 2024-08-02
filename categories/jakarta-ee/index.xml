@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jakarta EE on 0x1feb</title>
+    <link>https://0x1feb.github.io/categories/jakarta-ee/</link>
+    <description>Recent content in Jakarta EE on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/jakarta-ee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jakarta Faces 4.0 で JavaScript を defer/async で読み込む</title>
+      <link>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</link>
+      <pubDate>Fri, 02 Aug 2024 14:00:10 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</guid>
+      <description>概要 Jakarta Faces 4.0 の XHTML にて、&amp;lt;h:outputScript&amp;gt; に defer/async 属性を付与できなかった。 &amp;lt;script src=&amp;quot;...&amp;quot; defer=&amp;quot;defer&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; タグを使って読み込むことで対応した。 前提 Jakarta</description>
+    </item>
+    
+  </channel>
+</rss>
