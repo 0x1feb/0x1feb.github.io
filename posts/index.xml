@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUnit 4 から JUnit 5 に移行する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</link>
+      <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</guid>
+      <description>概要 JUnit 4 のテストコードを JUnit 5 に移行する。 JUnit 4 のテストコードはそのままにして、新規のテストコードは JUnit 5 で作成する。 前提 JUnit 4 JUnit 5 手順 JUnit 5 ライブラ</description>
+    </item>
+    
     <item>
       <title>Jakarta Faces 4.0 で JavaScript を defer/async で読み込む</title>
       <link>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</link>

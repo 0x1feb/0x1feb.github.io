@@ -3,18 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/java/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/junit/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/junit-4/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/junit-5/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2024-09-01T10:57:31+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/jakarta-ee/</loc>
     <lastmod>2024-08-02T14:00:10+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</loc>
-    <lastmod>2024-08-02T14:00:10+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/</loc>
     <lastmod>2024-08-02T14:00:10+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/network/</loc>
@@ -30,9 +48,6 @@
     <lastmod>2024-07-03T22:57:44+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/html/</loc>
-    <lastmod>2024-07-03T22:57:44+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2024-07-03T22:57:44+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/linux/</loc>
@@ -208,9 +223,6 @@
   </url><url>
     <loc>https://0x1feb.github.io/posts/2022/10/26/cpp-map-memo/</loc>
     <lastmod>2022-10-26T21:14:34+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/categories/java/</loc>
-    <lastmod>2022-01-27T22:28:34+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/java-8/</loc>
     <lastmod>2022-01-27T22:28:34+09:00</lastmod>

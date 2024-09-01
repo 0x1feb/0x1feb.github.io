@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://0x1feb.github.io/categories/java/</link>
+      <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JUnit</title>
+      <link>https://0x1feb.github.io/categories/junit/</link>
+      <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/junit/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Jakarta EE</title>
       <link>https://0x1feb.github.io/categories/jakarta-ee/</link>
@@ -112,15 +130,6 @@
       <pubDate>Wed, 26 Oct 2022 21:14:34 +0900</pubDate>
       
       <guid>https://0x1feb.github.io/categories/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://0x1feb.github.io/categories/java/</link>
-      <pubDate>Thu, 27 Jan 2022 22:28:34 +0900</pubDate>
-      
-      <guid>https://0x1feb.github.io/categories/java/</guid>
       <description></description>
     </item>
     
