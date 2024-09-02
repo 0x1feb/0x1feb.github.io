@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ubuntu on 0x1feb</title>
+    <link>https://0x1feb.github.io/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 02 Sep 2024 10:04:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu のセキュリティアップデートを定期実行/自動再起動する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/02/automating-security-updates-and-reboots-on-ubuntu/</link>
+      <pubDate>Mon, 02 Sep 2024 10:04:05 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/02/automating-security-updates-and-reboots-on-ubuntu/</guid>
+      <description>概要 Ubuntu のセキュリティアップデートを定期実行し、必要に応じて再起動する。 前提 Ubuntu 22.04 LTS 手順 自動アップデートの設定 任意のエディタで 20auto-upgrades を開く。 sudo vi /etc/apt/apt.conf.d/20auto-upgrades APT::Periodic::Update-Package-Lists</description>
+    </item>
+    
+  </channel>
+</rss>

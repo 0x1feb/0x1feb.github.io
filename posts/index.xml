@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Sep 2024 10:04:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu のセキュリティアップデートを定期実行/自動再起動する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/02/automating-security-updates-and-reboots-on-ubuntu/</link>
+      <pubDate>Mon, 02 Sep 2024 10:04:05 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/02/automating-security-updates-and-reboots-on-ubuntu/</guid>
+      <description>概要 Ubuntu のセキュリティアップデートを定期実行し、必要に応じて再起動する。 前提 Ubuntu 22.04 LTS 手順 自動アップデートの設定 任意のエディタで 20auto-upgrades を開く。 sudo vi /etc/apt/apt.conf.d/20auto-upgrades APT::Periodic::Update-Package-Lists</description>
+    </item>
+    
     <item>
       <title>JUnit 4 から JUnit 5 に移行する</title>
       <link>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</link>
