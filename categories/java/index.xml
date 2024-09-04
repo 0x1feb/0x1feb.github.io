@@ -6,7 +6,16 @@
     <description>Recent content in Java on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Sep 2024 15:36:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUnit 5 で Java のテストコードを作成する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</link>
+      <pubDate>Wed, 04 Sep 2024 15:36:05 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</guid>
+      <description>概要 JUnit 5 について、最低限の動きを整理する。 @Test アノテーション assertEquals fail 前提 JUnit 5 Java 8 (or higher) 今回のサンプルは Java 21 で作成 手順 ライブラリの設定 JUnit 5 User Guide の以下の</description>
+    </item>
+    
     <item>
       <title>JUnit 4 から JUnit 5 に移行する</title>
       <link>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</link>

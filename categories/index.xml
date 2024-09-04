@@ -6,20 +6,11 @@
     <description>Recent content in Categories on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Sep 2024 10:04:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ubuntu</title>
-      <link>https://0x1feb.github.io/categories/ubuntu/</link>
-      <pubDate>Mon, 02 Sep 2024 10:04:05 +0900</pubDate>
-      
-      <guid>https://0x1feb.github.io/categories/ubuntu/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 04 Sep 2024 15:36:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java</title>
       <link>https://0x1feb.github.io/categories/java/</link>
-      <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
+      <pubDate>Wed, 04 Sep 2024 15:36:05 +0900</pubDate>
       
       <guid>https://0x1feb.github.io/categories/java/</guid>
       <description></description>
@@ -28,9 +19,27 @@
     <item>
       <title>JUnit</title>
       <link>https://0x1feb.github.io/categories/junit/</link>
-      <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
+      <pubDate>Wed, 04 Sep 2024 15:36:05 +0900</pubDate>
       
       <guid>https://0x1feb.github.io/categories/junit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://0x1feb.github.io/categories/testing/</link>
+      <pubDate>Wed, 04 Sep 2024 15:36:05 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://0x1feb.github.io/categories/ubuntu/</link>
+      <pubDate>Mon, 02 Sep 2024 10:04:05 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/categories/ubuntu/</guid>
       <description></description>
     </item>
     
