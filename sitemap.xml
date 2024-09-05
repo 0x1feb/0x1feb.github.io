@@ -3,27 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/java/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/junit/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/junit-5/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
-    <loc>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <loc>https://0x1feb.github.io/tags/maven/</loc>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</loc>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2024-09-04T15:36:05+09:00</lastmod>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2024-09-05T12:47:40+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</loc>
     <lastmod>2024-09-04T15:36:05+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/testing/</loc>

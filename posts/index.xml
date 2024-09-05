@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Sep 2024 15:36:05 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 12:47:40 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maven で JUnit 5 の @DisplayName が反映されない問題に対処する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</link>
+      <pubDate>Thu, 05 Sep 2024 12:47:40 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</guid>
+      <description>概要 JUnit 5 にて、 @DisplayName を付与したテストを実行しても、実行結果に @DisplayName で設定した名前が反映されない。 maven-surefire-plugin の設定を入れることで、@DisplayName が反</description>
+    </item>
+    
     <item>
       <title>JUnit 5 で Java のテストコードを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</link>
