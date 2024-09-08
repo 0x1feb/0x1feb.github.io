@@ -6,7 +6,16 @@
     <description>Recent content in JUnit on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 07 Sep 2024 18:17:26 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/junit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Sep 2024 23:48:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/junit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUnit 5 の静的テスト (@Test) を整理する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</link>
+      <pubDate>Sun, 08 Sep 2024 23:48:51 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</guid>
+      <description>概要 JUnit 5 の静的テストを整理する。 @Test 前提 JUnit 5 解説 @Test @Test アノテーションは、付与したメソッドがテストメソッドであることを表す。 以下の ExampleTest は、@Test</description>
+    </item>
+    
     <item>
       <title>JUnit 5 のライフサイクルを整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/07/understanding-junit-5-lifecycle/</link>
