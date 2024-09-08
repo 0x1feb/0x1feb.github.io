@@ -8,7 +8,7 @@
     <language>ja</language>
     <lastBuildDate>Sun, 08 Sep 2024 23:48:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JUnit 5 の静的テスト (@Test) を整理する</title>
+      <title>JUnit 5 の静的テスト @Test を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</link>
       <pubDate>Sun, 08 Sep 2024 23:48:51 +0900</pubDate>
       
