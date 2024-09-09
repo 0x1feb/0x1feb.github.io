@@ -6,7 +6,16 @@
     <description>Recent content in Posts on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 08 Sep 2024 23:48:51 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Sep 2024 19:20:26 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUnit 5 の動的テスト @RepeatedTest を整理する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/09/understanding-junit-5-repeated-test-annotation/</link>
+      <pubDate>Mon, 09 Sep 2024 19:20:26 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/09/understanding-junit-5-repeated-test-annotation/</guid>
+      <description>概要 JUnit 5 の動的テストを整理する。 @RepeatedTest 前提 JUnit 5 解説 @RepeatedTest @RepeatedTest は、指定した回数だけテストメソッドを繰り返すテストである。 例えば、以下の ExampleRepeatedTest は、@Repea</description>
+    </item>
+    
     <item>
       <title>JUnit 5 の静的テスト @Test を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</link>
