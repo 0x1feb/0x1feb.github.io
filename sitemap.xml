@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2024-09-09T19:20:26+09:00</lastmod>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2024-09-09T19:20:26+09:00</lastmod>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/powershell/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/powershell-5/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/powershell-7/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/windows-server-2019/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2024/09/10/running-powershell-as-the-specified-user-or-administrator/</loc>
+    <lastmod>2024-09-10T16:16:20+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/java/</loc>
     <lastmod>2024-09-09T19:20:26+09:00</lastmod>
@@ -18,12 +39,6 @@
     <lastmod>2024-09-09T19:20:26+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/09/09/understanding-junit-5-repeated-test-annotation/</loc>
-    <lastmod>2024-09-09T19:20:26+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2024-09-09T19:20:26+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2024-09-09T19:20:26+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</loc>
