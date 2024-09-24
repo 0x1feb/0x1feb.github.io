@@ -6,7 +6,16 @@
     <description>Recent content in JUnit 5 on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Sep 2024 12:40:01 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/junit-5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Sep 2024 22:06:50 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/junit-5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JUnit 5 の @TempDir でテスト実行時のみの一時ディレクトリを作成する</title>
+      <link>https://0x1feb.github.io/posts/2024/09/24/understanding-junit-5-temp-dir-annotation/</link>
+      <pubDate>Tue, 24 Sep 2024 22:06:50 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/09/24/understanding-junit-5-temp-dir-annotation/</guid>
+      <description>概要 JUnit 5 のテストにて、テスト実行時のみに使用する一時ディレクトリを作成する。 @TempDir テスト実行時のみ実態のあるファイルやディレクトリを扱いたいとき</description>
+    </item>
+    
     <item>
       <title>JUnit 5 の動的テスト @ParameterizedTest を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/23/understanding-junit-5-parameterized-test-annotation/</link>
