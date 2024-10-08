@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Outlook on 0x1feb</title>
+    <link>https://0x1feb.github.io/tags/outlook/</link>
+    <description>Recent content in Outlook on 0x1feb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/outlook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell のスクリプトで Outlook のメールを作成する</title>
+      <link>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</link>
+      <pubDate>Tue, 08 Oct 2024 09:56:27 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</guid>
+      <description>概要 PowerShell のスクリプトで Outlook のメールを作成・送信する。 メールに設定する内容は JSON で定義する。 前提 PowerShell 7.4.5 説明 以下を引数に持つ関数 New-OutlookMail を作成した。 件名 宛先 (To,</description>
+    </item>
+    
+  </channel>
+</rss>
