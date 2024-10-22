@@ -6,7 +6,16 @@
     <description>Recent content in Windows on 0x1feb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Oct 2024 21:35:39 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell のコマンドでプロセスを開始する</title>
+      <link>https://0x1feb.github.io/posts/2024/10/22/how-to-start-a-process-in-powershell/</link>
+      <pubDate>Tue, 22 Oct 2024 21:35:39 +0900</pubDate>
+      
+      <guid>https://0x1feb.github.io/posts/2024/10/22/how-to-start-a-process-in-powershell/</guid>
+      <description>概要 PowerShell の Start-Process コマンドでプロセスを開始する。 環境 PowerShell 7.4.5 説明 新たな PowerShell プロセス (pwsh.exe) を開始する例で説明する。他のアプリやファイルを実行する場合は、pwsh</description>
+    </item>
+    
     <item>
       <title>PowerShell のスクリプトで Outlook のメールを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</link>
