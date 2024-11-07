@@ -4,17 +4,28 @@
     <title>JUnit 4 on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/junit-4/</link>
     <description>Recent content in JUnit 4 on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/junit-4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2024 10:57:31 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/junit-4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JUnit 4 から JUnit 5 に移行する</title>
       <link>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</link>
       <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</guid>
-      <description>概要 JUnit 4 のテストコードを JUnit 5 に移行する。 JUnit 4 のテストコードはそのままにして、新規のテストコードは JUnit 5 で作成する。 前提 JUnit 4 JUnit 5 手順 JUnit 5 ライブラ</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 4 のテストコードを JUnit 5 に移行する。&lt;/li&gt;
+&lt;li&gt;JUnit 4 のテストコードはそのままにして、新規のテストコードは JUnit 5 で作成する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 4&lt;/li&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;junit-5-ライブラリの追加&#34;&gt;JUnit 5 ライブラリの追加&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/junit-team/junit5-samples/tree/main/junit5-migration-maven&#34;&gt;junit5-samples/junit5-migration-maven at main · junit-team/junit5-samples&lt;/a&gt; を参考に、&lt;code&gt;pom.xml&lt;/code&gt; を更新する。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

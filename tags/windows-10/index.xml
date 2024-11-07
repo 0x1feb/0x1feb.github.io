@@ -4,26 +4,89 @@
     <title>Windows 10 on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/windows-10/</link>
     <description>Recent content in Windows 10 on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 19 Mar 2023 14:27:01 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 14:27:01 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/windows-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ryzen 5 1600 を Ryzen 5 5500 に交換する</title>
       <link>https://0x1feb.github.io/posts/2023/03/19/replace-cpu/</link>
       <pubDate>Sun, 19 Mar 2023 14:27:01 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2023/03/19/replace-cpu/</guid>
-      <description>背景 Windows 10 から Windows 11 にアップグレードしたい。 Windows 11 のシステム要件である CPU の対象外だった。 使っていたのは AMD Ryzen 5 1600 である。 概要 Windows 11 でサポートされている</description>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 から Windows 11 にアップグレードしたい。&lt;/li&gt;
+&lt;li&gt;Windows 11 のシステム要件である CPU の対象外だった。
+&lt;ul&gt;
+&lt;li&gt;使っていたのは AMD Ryzen 5 1600 である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11 でサポートされている CPU (&lt;a href=&#34;https://learn.microsoft.com/en-us/windows-hardware/design/minimum/supported/windows-11-supported-amd-processors&#34;&gt;Windows processor requirements Windows 11 supported AMD processors ｜ Microsoft Learn&lt;/a&gt;) に変更する。
+&lt;ul&gt;
+&lt;li&gt;変更前: AMD Ryzen 5 1600&lt;/li&gt;
+&lt;li&gt;変更後: AMD Ryzen 5 5500&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;bios-を更新する&#34;&gt;BIOS を更新する&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新しい CPU に対応しているバージョンに更新する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;bitlocker-の設定を確認する&#34;&gt;BitLocker の設定を確認する&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BitLocker を使用している場合は、解除するか、回復キーを保存しておく
+&lt;ul&gt;
+&lt;li&gt;BitLocker を有効にしていると、起動時に回復キーを求められる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cpu-を交換する&#34;&gt;CPU を交換する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;CPU クーラーを取り外す。
+&lt;ul&gt;
+&lt;li&gt;グリスが固まって CPU とくっついているため、 CPU ごと強引に外さないように注意する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CPU を取り外す。&lt;/li&gt;
+&lt;li&gt;交換する CPU を設置する。&lt;/li&gt;
+&lt;li&gt;CPU クーラーを設置する。
+&lt;ul&gt;
+&lt;li&gt;ネジが届かないと思っていたら、バックプレートが外れていることに気付いてなかっただけだった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;起動して BIOS 設定画面を開き、CPU が認識されていることを確認する。&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Legacy BIOS を UEFI に変更する</title>
       <link>https://0x1feb.github.io/posts/2023/03/18/change-legacy-bios-to-uefi/</link>
       <pubDate>Sat, 18 Mar 2023 12:29:36 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2023/03/18/change-legacy-bios-to-uefi/</guid>
-      <description>背景 Windows 10 から Windows 11 にアップグレードしたい。 Windows 11 のシステム要件であるセキュアブートを満たしていなかった。 Legacy BIOS で Windows 10 をインストールしていた。 Windows 10 が</description>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 から Windows 11 にアップグレードしたい。&lt;/li&gt;
+&lt;li&gt;Windows 11 のシステム要件であるセキュアブートを満たしていなかった。
+&lt;ul&gt;
+&lt;li&gt;Legacy BIOS で Windows 10 をインストールしていた。&lt;/li&gt;
+&lt;li&gt;Windows 10 が MBR ディスクにインストールされているため、 UEFI を有効にしても Legacy BIOS で起動してしまう。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;マザーボードは &lt;a href=&#34;https://www.asus.com/jp/motherboards-components/motherboards/prime/prime-b350-plus/&#34;&gt;PRIME B350-PLUS&lt;/a&gt; (BIOS Version 6061) を使用している。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 がインストールされているドライブが MBR ディスクになっているため、 GPT ディスクに変換する。&lt;/li&gt;
+&lt;li&gt;BIOS の設定を Legacy Boot から UEFI に変更する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;mbr-ディスクを-gpt-ディスクに変換する&#34;&gt;MBR ディスクを GPT ディスクに変換する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Windows 10 の回復オプションを開く。（開き方は以下など）&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

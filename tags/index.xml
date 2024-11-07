@@ -4,188 +4,149 @@
     <title>Tags on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/</link>
     <description>Recent content in Tags on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Outlook</title>
       <link>https://0x1feb.github.io/tags/outlook/</link>
       <pubDate>Tue, 08 Oct 2024 09:56:27 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/outlook/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JUnit 5</title>
       <link>https://0x1feb.github.io/tags/junit-5/</link>
       <pubDate>Fri, 27 Sep 2024 23:39:26 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/junit-5/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PowerShell 7</title>
       <link>https://0x1feb.github.io/tags/powershell-7/</link>
       <pubDate>Sat, 14 Sep 2024 14:42:24 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/powershell-7/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PowerShell 5</title>
       <link>https://0x1feb.github.io/tags/powershell-5/</link>
       <pubDate>Wed, 11 Sep 2024 10:17:06 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/powershell-5/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows 11</title>
       <link>https://0x1feb.github.io/tags/windows-11/</link>
       <pubDate>Wed, 11 Sep 2024 10:17:06 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/windows-11/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows Server 2019</title>
       <link>https://0x1feb.github.io/tags/windows-server-2019/</link>
       <pubDate>Tue, 10 Sep 2024 16:16:20 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/windows-server-2019/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Maven</title>
       <link>https://0x1feb.github.io/tags/maven/</link>
       <pubDate>Thu, 05 Sep 2024 12:47:40 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/maven/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JUnit 4</title>
       <link>https://0x1feb.github.io/tags/junit-4/</link>
       <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/junit-4/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CSS</title>
       <link>https://0x1feb.github.io/tags/css/</link>
       <pubDate>Wed, 03 Jul 2024 22:57:44 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/css/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>HTML</title>
       <link>https://0x1feb.github.io/tags/html/</link>
       <pubDate>Wed, 03 Jul 2024 22:57:44 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/html/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Ubuntu</title>
       <link>https://0x1feb.github.io/tags/ubuntu/</link>
       <pubDate>Sun, 30 Jun 2024 20:46:41 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VPN</title>
       <link>https://0x1feb.github.io/tags/vpn/</link>
       <pubDate>Tue, 25 Jun 2024 09:41:53 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/vpn/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>NGINX</title>
       <link>https://0x1feb.github.io/tags/nginx/</link>
       <pubDate>Wed, 24 Apr 2024 23:17:57 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/nginx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bash</title>
+      <title>Bash</title>
       <link>https://0x1feb.github.io/tags/bash/</link>
       <pubDate>Wed, 13 Mar 2024 09:26:44 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/bash/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Android</title>
       <link>https://0x1feb.github.io/tags/android/</link>
       <pubDate>Tue, 02 Jan 2024 20:55:20 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/android/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>laptop</title>
+      <title>Laptop</title>
       <link>https://0x1feb.github.io/tags/laptop/</link>
       <pubDate>Mon, 01 Jan 2024 21:47:32 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/laptop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PowerShell</title>
       <link>https://0x1feb.github.io/tags/powershell/</link>
       <pubDate>Sun, 26 Nov 2023 12:17:27 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/powershell/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Windows 10</title>
       <link>https://0x1feb.github.io/tags/windows-10/</link>
       <pubDate>Sun, 19 Mar 2023 14:27:01 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/windows-10/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kotlin</title>
       <link>https://0x1feb.github.io/tags/kotlin/</link>
       <pubDate>Tue, 03 Jan 2023 17:43:15 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/kotlin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Java 8</title>
       <link>https://0x1feb.github.io/tags/java-8/</link>
       <pubDate>Thu, 27 Jan 2022 22:28:34 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/tags/java-8/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

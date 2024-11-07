@@ -4,17 +4,27 @@
     <title>Maven on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/maven/</link>
     <description>Recent content in Maven on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Sep 2024 12:47:40 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 12:47:40 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maven で JUnit 5 の @DisplayName が反映されない問題に対処する</title>
       <link>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</link>
       <pubDate>Thu, 05 Sep 2024 12:47:40 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</guid>
-      <description>概要 JUnit 5 にて、 @DisplayName を付与したテストを実行しても、実行結果に @DisplayName で設定した名前が反映されない。 maven-surefire-plugin の設定を入れることで、@DisplayName が反</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 にて、 &lt;code&gt;@DisplayName&lt;/code&gt; を付与したテストを実行しても、実行結果に &lt;code&gt;@DisplayName&lt;/code&gt; で設定した名前が反映されない。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;maven-surefire-plugin&lt;/code&gt; の設定を入れることで、&lt;code&gt;@DisplayName&lt;/code&gt; が反映されるようになる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;li&gt;Maven 3.8.x+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;pom.xml&lt;/code&gt; に以下を設定する。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

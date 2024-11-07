@@ -4,26 +4,43 @@
     <title>Java 8 on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/java-8/</link>
     <description>Recent content in Java 8 on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 27 Jan 2022 22:28:34 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/java-8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 22:28:34 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/java-8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>複数の要素を Stream でまとめる</title>
       <link>https://0x1feb.github.io/posts/2022/01/27/combining-multi-elements-in-java-stream/</link>
       <pubDate>Thu, 27 Jan 2022 22:28:34 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2022/01/27/combining-multi-elements-in-java-stream/</guid>
-      <description>やりたいこと 単体のリストではない複数の要素に、同じ処理を適用したい。 複数のリストや要素を一時的にまとめた Stream を作成し、一括で処理したい。 public class User</description>
+      <description>&lt;h2 id=&#34;やりたいこと&#34;&gt;やりたいこと&lt;/h2&gt;
+&lt;p&gt;単体のリストではない複数の要素に、同じ処理を適用したい。&lt;/p&gt;
+&lt;p&gt;複数のリストや要素を一時的にまとめた Stream を作成し、一括で処理したい。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;private&lt;/span&gt; String name;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;(String name, &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; name;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; age;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// getter と setter は省略&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; String &lt;span style=&#34;color:#a6e22e&#34;&gt;toString&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;name: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;, age: &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; age;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以下のリスト1とリスト2をまとめたり、リスト1と単体の要素1をまとめたりして処理する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Java の Stream メモ</title>
       <link>https://0x1feb.github.io/posts/2022/01/24/java-stream-memo/</link>
       <pubDate>Mon, 24 Jan 2022 22:00:00 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2022/01/24/java-stream-memo/</guid>
-      <description>Stream とは Java 8 から追加され、コレクションに対する集約操作をサポートした機能を持つ。 中間操作と終端操作を組み合わせてパイプラインにできるため、fo</description>
+      <description>&lt;h2 id=&#34;stream-とは&#34;&gt;Stream とは&lt;/h2&gt;
+&lt;p&gt;Java 8 から追加され、コレクションに対する集約操作をサポートした機能を持つ。&lt;/p&gt;
+&lt;p&gt;中間操作と終端操作を組み合わせてパイプラインにできるため、for 文による繰り返し処理を簡潔に記述できる。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

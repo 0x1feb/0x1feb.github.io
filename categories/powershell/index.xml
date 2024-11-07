@@ -4,53 +4,137 @@
     <title>PowerShell on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/powershell/</link>
     <description>Recent content in PowerShell on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 22 Oct 2024 21:35:39 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Nov 2024 22:40:56 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell で特定ポートの疎通を確認する</title>
+      <link>https://0x1feb.github.io/posts/2024/11/07/powershell-port-testing/</link>
+      <pubDate>Thu, 07 Nov 2024 22:40:56 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2024/11/07/powershell-port-testing/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;PowerShell の &lt;code&gt;Test-NetConnection&lt;/code&gt; を使用する。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.NET&lt;/code&gt; の &lt;code&gt;System.Net.Sockets.TcpClient&lt;/code&gt; を使用する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 5.1/7.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;test-netconnection&#34;&gt;Test-NetConnection&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Test-NetConnection&lt;/code&gt; を使う方法を説明する。&lt;/p&gt;
+&lt;p&gt;例えば、&lt;code&gt;192.168.1.1&lt;/code&gt; の &lt;code&gt;22&lt;/code&gt; ポートを確認する場合、PowerShell にて、以下のコマンドを実行する。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PowerShell のコマンドでプロセスを開始する</title>
       <link>https://0x1feb.github.io/posts/2024/10/22/how-to-start-a-process-in-powershell/</link>
       <pubDate>Tue, 22 Oct 2024 21:35:39 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/10/22/how-to-start-a-process-in-powershell/</guid>
-      <description>概要 PowerShell の Start-Process コマンドでプロセスを開始する。 環境 PowerShell 7.4.5 説明 新たな PowerShell プロセス (pwsh.exe) を開始する例で説明する。他のアプリやファイルを実行する場合は、pwsh</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell の &lt;code&gt;Start-Process&lt;/code&gt; コマンドでプロセスを開始する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7.4.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;p&gt;新たな PowerShell プロセス (&lt;code&gt;pwsh.exe&lt;/code&gt;) を開始する例で説明する。他のアプリやファイルを実行する場合は、&lt;code&gt;pwsh.exe&lt;/code&gt; 部分を置き換える。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PowerShell のスクリプトで Outlook のメールを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</link>
       <pubDate>Tue, 08 Oct 2024 09:56:27 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</guid>
-      <description>概要 PowerShell のスクリプトで Outlook のメールを作成・送信する。 メールに設定する内容は JSON で定義する。 前提 PowerShell 7.4.5 説明 以下を引数に持つ関数 New-OutlookMail を作成した。 件名 宛先 (To,</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell のスクリプトで Outlook のメールを作成・送信する。&lt;/li&gt;
+&lt;li&gt;メールに設定する内容は JSON で定義する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7.4.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;p&gt;以下を引数に持つ関数 &lt;code&gt;New-OutlookMail&lt;/code&gt; を作成した。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;件名&lt;/li&gt;
+&lt;li&gt;宛先 (To, CC, BCC)&lt;/li&gt;
+&lt;li&gt;本文&lt;/li&gt;
+&lt;li&gt;配信日時&lt;/li&gt;
+&lt;li&gt;送信前に画面表示するかの制御&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、送信前に画面表示するか、そのまま送信するかを &lt;code&gt;SendWithoutDisplay&lt;/code&gt; で制御している。デフォルトでは送信前に画面表示する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Windows のサービスを PowerShell のコマンドで操作する</title>
       <link>https://0x1feb.github.io/posts/2024/09/14/manipulating-windows-services-with-powershell/</link>
       <pubDate>Sat, 14 Sep 2024 14:42:24 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/14/manipulating-windows-services-with-powershell/</guid>
-      <description>概要 Windows のサービスを PowerShell のコマンドで操作する。 サービスのスタートアップの種類を変更する。 前提 PowerShell 7.4 説明 サービスの取得 以下のコマンドを実行すると、全</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows のサービスを PowerShell のコマンドで操作する。&lt;/li&gt;
+&lt;li&gt;サービスのスタートアップの種類を変更する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;h3 id=&#34;サービスの取得&#34;&gt;サービスの取得&lt;/h3&gt;
+&lt;p&gt;以下のコマンドを実行すると、全サービスを取得する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Windows のユーザやグループを PowerShell スクリプトで操作する</title>
       <link>https://0x1feb.github.io/posts/2024/09/11/manipulating-local-windows-users-and-groups-with-powershell-script/</link>
       <pubDate>Wed, 11 Sep 2024 10:17:06 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/11/manipulating-local-windows-users-and-groups-with-powershell-script/</guid>
-      <description>概要 Windows のユーザやグループをコマンドで操作する。 ユーザの作成/変更/削除 グループの作成/変更/削除 グループへのユーザ追加/削除 前提 PowerShell 5.1 PowerShell 7+ の場</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows のユーザやグループをコマンドで操作する。
+&lt;ul&gt;
+&lt;li&gt;ユーザの作成/変更/削除&lt;/li&gt;
+&lt;li&gt;グループの作成/変更/削除&lt;/li&gt;
+&lt;li&gt;グループへのユーザ追加/削除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 5.1
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7+ の場合、モジュールインポートが必要である。&lt;/li&gt;
+&lt;li&gt;各コマンドは、管理者権限の PowerShell で実行する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;h3 id=&#34;powershell-7-の場合&#34;&gt;PowerShell 7+ の場合&lt;/h3&gt;
+&lt;p&gt;PowerShell 7+ で作成する場合、&lt;code&gt;New-LocalUser&lt;/code&gt; を実行すると、次のようなエラーが出る。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>指定したユーザや管理者権限で PowerShell を実行する</title>
       <link>https://0x1feb.github.io/posts/2024/09/10/running-powershell-as-the-specified-user-or-administrator/</link>
       <pubDate>Tue, 10 Sep 2024 16:16:20 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/10/running-powershell-as-the-specified-user-or-administrator/</guid>
-      <description>概要 PowerShell の実行ユーザを切り替える。 PowerShell を管理者権限で実行する。 前提 Windows Server 2019 Windows PowerShell 5.1 7.4 でも同じように動くはず。 手順 ユーザ切り替えと管理者権限での実行は</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell の実行ユーザを切り替える。&lt;/li&gt;
+&lt;li&gt;PowerShell を管理者権限で実行する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows Server 2019&lt;/li&gt;
+&lt;li&gt;Windows PowerShell 5.1
+&lt;ul&gt;
+&lt;li&gt;7.4 でも同じように動くはず。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;ユーザ切り替えと管理者権限での実行は、同時にできないため、個別に実行する必要がある。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

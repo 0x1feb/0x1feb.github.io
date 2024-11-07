@@ -4,125 +4,364 @@
     <title>Linux on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/linux/</link>
     <description>Recent content in Linux on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 30 Jun 2024 20:46:41 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 20:46:41 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 LTS のファイアーウォールを設定する</title>
       <link>https://0x1feb.github.io/posts/2024/06/30/how-to-configure-a-firewall-on-ubuntu-22.04-lts/</link>
       <pubDate>Sun, 30 Jun 2024 20:46:41 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/06/30/how-to-configure-a-firewall-on-ubuntu-22.04-lts/</guid>
-      <description>概要 Ubuntu のファイアウォールを設定し、アクセスルールを変更する。 前提 Ubuntu 22.04 LTS 注意点 SSH 等のリモート接続で作業する場合、ファイアウォールの設定を間違え</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu のファイアウォールを設定し、アクセスルールを変更する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;注意点&#34;&gt;注意点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SSH 等のリモート接続で作業する場合、ファイアウォールの設定を間違えると、接続できなくなる可能性がある。&lt;/li&gt;
+&lt;li&gt;ファイアウォールの設定後には、SSH セッションを切断する前に、別セッションで SSH 接続できることを確認してから切断すること。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ファイアウォールの状態確認&#34;&gt;ファイアウォールの状態確認&lt;/h3&gt;
+&lt;p&gt;ファイアウォールのステータスを確認する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ディスクのマウントが不安定なので原因を調べた</title>
       <link>https://0x1feb.github.io/posts/2024/06/27/investigating-the-cause-of-an-unstable-disk-mount/</link>
       <pubDate>Thu, 27 Jun 2024 09:49:07 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/06/27/investigating-the-cause-of-an-unstable-disk-mount/</guid>
-      <description>概要 SSD を /data にマウントしているが、/data 配下のファイルアクセスに失敗することがある。 特定ファイルが読み取り専用扱いになり、更新できなくなる</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SSD を &lt;code&gt;/data&lt;/code&gt; にマウントしているが、&lt;code&gt;/data&lt;/code&gt; 配下のファイルアクセスに失敗することがある。
+&lt;ul&gt;
+&lt;li&gt;特定ファイルが読み取り専用扱いになり、更新できなくなる。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/data&lt;/code&gt; のマウントが解除される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;原因を調査したときの記録である。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ディスクの状態を調べる&#34;&gt;ディスクの状態を調べる&lt;/h3&gt;
+&lt;p&gt;「&lt;a title=&#34;SSD の SMART を調べる&#34; href=&#34;https://0x1feb.github.io/posts/2024/06/23/check-ssd-smart/&#34;&gt;SSD の SMART を調べる&lt;/a&gt;」の手順で SMART を調べた。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu で SSTP を使用して VPN 接続する</title>
       <link>https://0x1feb.github.io/posts/2024/06/25/connecting-to-a-vpn-using-sstp-on-ubuntu/</link>
       <pubDate>Tue, 25 Jun 2024 09:41:53 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/06/25/connecting-to-a-vpn-using-sstp-on-ubuntu/</guid>
-      <description>概要 SoftEther の VPN Azure (MS-SSTP Server) に Ubuntu で接続したい。 Ubuntu 24.04 LTS では、デフォルトの VPN 設定に SSTP が存在しない。 Ubuntu の VPN サーバクライアントに SSTP を設定できるようにする。 前提 Ubuntu</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SoftEther の VPN Azure (MS-SSTP Server) に Ubuntu で接続したい。&lt;/li&gt;
+&lt;li&gt;Ubuntu 24.04 LTS では、デフォルトの VPN 設定に SSTP が存在しない。&lt;/li&gt;
+&lt;li&gt;Ubuntu の VPN サーバクライアントに SSTP を設定できるようにする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;network-manager-sstp-gnome&lt;/code&gt; をインストールする。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SSD の SMART を調べる</title>
       <link>https://0x1feb.github.io/posts/2024/06/23/check-ssd-smart/</link>
       <pubDate>Sun, 23 Jun 2024 16:03:44 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/06/23/check-ssd-smart/</guid>
-      <description>概要 SSD の SMART 情報を表示し、故障してないか調べる。 前提 Ubuntu 22.04 LTS smartctl 7.2 手順 インストール sudo apt install smartmontools ディスクの検索 smartctl --scan /dev/sdb -d sat # /dev/sdb [SAT], ATA device /dev/sdc -d scsi # /dev/sdc, SCSI device /dev/nvme0 -d nvme #</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SSD の SMART 情報を表示し、故障してないか調べる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;li&gt;smartctl 7.2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;インストール&#34;&gt;インストール&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install smartmontools
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ディスクの検索&#34;&gt;ディスクの検索&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;smartctl --scan
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/dev/sdb -d sat # /dev/sdb [SAT], ATA device
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/dev/sdc -d scsi # /dev/sdc, SCSI device
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/dev/nvme0 -d nvme # /dev/nvme0, NVMe device
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;ディスクの-smart-を取得&#34;&gt;ディスクの SMART を取得&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo smartctl /dev/nvme0 --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-112-generic] (local build)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;=== START OF INFORMATION SECTION ===
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Model Number:                       512GB SSD
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Serial Number:                      xxxxxxxxxxxxxx
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Firmware Version:                   SN12221
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PCI Vendor/Subsystem ID:            0x1e4b
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;IEEE OUI Identifier:                0x3a5a27
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Total NVM Capacity:                 512,110,190,592 [512 GB]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Unallocated NVM Capacity:           0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Controller ID:                      0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NVMe Version:                       1.4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Number of Namespaces:               1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Namespace 1 Size/Capacity:          512,110,190,592 [512 GB]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Namespace 1 Formatted LBA Size:     512
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Namespace 1 IEEE EUI-64:            3a5a27 03600000c8
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Local Time is:                      Sun Jun 23 16:08:07 2024 JST
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Firmware Updates (0x1a):            5 Slots, no Reset required
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Optional Admin Commands (0x0017):   Security Format Frmw_DL Self_Test
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Optional NVM Commands (0x001f):     Comp Wr_Unc DS_Mngmt Wr_Zero Sav/Sel_Feat
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Log Page Attributes (0x06):         Cmd_Eff_Lg Ext_Get_Lg
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Maximum Data Transfer Size:         128 Pages
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Warning  Comp. Temp. Threshold:     90 Celsius
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Critical Comp. Temp. Threshold:     95 Celsius
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Supported Power States
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;St Op     Max   Active     Idle   RL RT WL WT  Ent_Lat  Ex_Lat
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 0 +     6.50W       -        -    0  0  0  0        0       0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 1 +     5.80W       -        -    1  1  1  1        0       0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 2 +     3.60W       -        -    2  2  2  2        0       0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 3 -   0.7460W       -        -    3  3  3  3     5000   10000
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 4 -   0.7260W       -        -    4  4  4  4     8000   45000
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Supported LBA Sizes (NSID 0x1)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Id Fmt  Data  Metadt  Rel_Perf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; 0 +     512       0         0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;=== START OF SMART DATA SECTION ===
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SMART overall-health self-assessment test result: PASSED
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SMART/Health Information (NVMe Log 0x02)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Critical Warning:                   0x00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Temperature:                        36 Celsius
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Available Spare:                    100%
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Available Spare Threshold:          10%
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Percentage Used:                    0%
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Data Units Read:                    1,103,499 [564 GB]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Data Units Written:                 1,678,087 [859 GB]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Host Read Commands:                 4,284,806
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Host Write Commands:                18,051,815
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Controller Busy Time:               150
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Power Cycles:                       27
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Power On Hours:                     2,082
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Unsafe Shutdowns:                   4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Media and Data Integrity Errors:    0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Error Information Log Entries:      0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Warning  Comp. Temperature Time:    0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Critical Comp. Temperature Time:    0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Temperature Sensor 1:               36 Celsius
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Temperature Sensor 2:               44 Celsius
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Error Information (NVMe Log 0x01, 16 of 64 entries)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No Errors Logged
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>rsync で特定ディレクトリを日次で差分バックアップする</title>
       <link>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</link>
       <pubDate>Wed, 01 May 2024 22:49:24 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/05/01/perform-daily-incremental-backups-of-a-specific-directory-with-rsync/</guid>
-      <description>概要 rsync を使って、特定ディレクトリのバックアップを日次で取得する。 前回分の差分のみ実ファイルを取得し、変更のないファイルはハードリンクとする。</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;rsync を使って、特定ディレクトリのバックアップを日次で取得する。&lt;/li&gt;
+&lt;li&gt;前回分の差分のみ実ファイルを取得し、変更のないファイルはハードリンクとする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;li&gt;rsync 3.2.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;スクリプトの作成&#34;&gt;スクリプトの作成&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;/opt/rsync_backup.sh&lt;/code&gt; を作成する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu 22.04 LTS に NGINX をインストールする</title>
       <link>https://0x1feb.github.io/posts/2024/04/24/installing-nginx-on-ubuntu-22.04-lts/</link>
       <pubDate>Wed, 24 Apr 2024 23:17:57 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/04/24/installing-nginx-on-ubuntu-22.04-lts/</guid>
-      <description>概要 Ubuntu 22.04 LTS に NGINX をインストールする。 前提 Ubuntu 22.04 LTS NGINX 1.26.0 手順 Ubuntu Repository 経由 この手順では、Ubuntu Repository の最新版である 1.18.0 がインストールされる。 NGINX をインストー</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS に NGINX をインストールする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;li&gt;NGINX 1.26.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ubuntu-repository-経由&#34;&gt;Ubuntu Repository 経由&lt;/h3&gt;
+&lt;p&gt;この手順では、Ubuntu Repository の最新版である 1.18.0 がインストールされる。&lt;/p&gt;
+&lt;p&gt;NGINX をインストールする。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install nginx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;NGINX のバージョンを確認する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SoftEther VPN Server を動かしているサーバ上の Samba や SSH に VPN 経由で接続する</title>
       <link>https://0x1feb.github.io/posts/2024/04/14/connecting-to-samba-and-ssh-on-the-server-running-softether-vpn-server-via-vpn/</link>
       <pubDate>Sun, 14 Apr 2024 11:05:48 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/04/14/connecting-to-samba-and-ssh-on-the-server-running-softether-vpn-server-via-vpn/</guid>
-      <description>概要 Ubuntu Server に SoftEther VPN Server をインストールしている。 同じサーバ上で Samba によるファイル共有サービス等を動かしている。 VPN 接続すると、Samba の共有ディレクト</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Server に SoftEther VPN Server をインストールしている。&lt;/li&gt;
+&lt;li&gt;同じサーバ上で Samba によるファイル共有サービス等を動かしている。&lt;/li&gt;
+&lt;li&gt;VPN 接続すると、Samba の共有ディレクトリや SSH 接続ができない。&lt;/li&gt;
+&lt;li&gt;Ubuntu Server にブリッジを追加し、VPN 接続したクライアントから Samba や SSH に接続できるようにする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;li&gt;SoftEther VPN Server (Ver 4.43, Build 9799, beta)
+&lt;ul&gt;
+&lt;li&gt;ローカルブリッジ設定のブリッジ先は、物理 LAN の &lt;code&gt;enp1s0&lt;/code&gt; で動作している。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ブリッジの追加&#34;&gt;ブリッジの追加&lt;/h3&gt;
+&lt;p&gt;任意のエディタで、&lt;code&gt;/etc/netplan/&lt;/code&gt; 配下にある YAML ファイルを開く。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu 22.04.4 LTS に SoftEther VPN Server をインストールする</title>
       <link>https://0x1feb.github.io/posts/2024/03/21/installing-softether-vpn-server-on-ubuntu-22.04.4-lts/</link>
       <pubDate>Thu, 21 Mar 2024 22:54:38 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/21/installing-softether-vpn-server-on-ubuntu-22.04.4-lts/</guid>
-      <description>概要 Ubuntu に SoftEther VPN Server をインストールする。 前提 Ubuntu 22.04.4 LTS SoftEther VPN Server (Ver 4.43, Build 9799, beta) 手順 SoftEther VPN Server のダウンロード SoftEther ダウンロード センターより、以下を選択する。 ダウンロード</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu に SoftEther VPN Server をインストールする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04.4 LTS&lt;/li&gt;
+&lt;li&gt;SoftEther VPN Server (Ver 4.43, Build 9799, beta)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;softether-vpn-server-のダウンロード&#34;&gt;SoftEther VPN Server のダウンロード&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.softether-download.com/ja.aspx?product=softether&#34;&gt;SoftEther ダウンロード センター&lt;/a&gt;より、以下を選択する。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ダウンロードするソフトウェア: SoftEther VPN (Freeware)&lt;/li&gt;
+&lt;li&gt;コンポーネント: SoftEther VPN Server&lt;/li&gt;
+&lt;li&gt;プラットフォーム: Linux&lt;/li&gt;
+&lt;li&gt;CPU: Intel x64 / AMD64 (64bit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ダウンロード可能なファイルが表示されたら、最新の URL をコピーする。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu 22.04.4 で Samba を使ってファイルサーバを構築する</title>
       <link>https://0x1feb.github.io/posts/2024/03/20/setting-up-a-file-server-using-samba-on-ubuntu-22.04.4/</link>
       <pubDate>Wed, 20 Mar 2024 13:40:14 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/20/setting-up-a-file-server-using-samba-on-ubuntu-22.04.4/</guid>
-      <description>概要 Ubuntu に Samba をインストールし、ファイルサーバを構築する。 前提 Ubuntu 22.04.4 LTS 手順 Samba のインストール 以下のコマンドを実行し、Samba をインストールする。 $</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu に Samba をインストールし、ファイルサーバを構築する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04.4 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;samba-のインストール&#34;&gt;Samba のインストール&lt;/h3&gt;
+&lt;p&gt;以下のコマンドを実行し、Samba をインストールする。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt install samba
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ samba --version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Version 4.15.13-Ubuntu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;samba-ユーザの作成&#34;&gt;Samba ユーザの作成&lt;/h3&gt;
+&lt;p&gt;Samba を管理するの専用ユーザを作成する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu のタイムゾーンを変更する</title>
       <link>https://0x1feb.github.io/posts/2024/03/19/changing-the-time-zone-in-ubuntu/</link>
       <pubDate>Tue, 19 Mar 2024 23:26:13 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/19/changing-the-time-zone-in-ubuntu/</guid>
-      <description>概要 Ubuntu の時刻が日本時間になっていないため、日本時間を設定する。 Windows と Ubuntu をデュアルブートしているとき、時刻がずれないようにしたい。 今回は Ubuntu 側の設</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu の時刻が日本時間になっていないため、日本時間を設定する。&lt;/li&gt;
+&lt;li&gt;Windows と Ubuntu をデュアルブートしているとき、時刻がずれないようにしたい。
+&lt;ul&gt;
+&lt;li&gt;今回は Ubuntu 側の設定変更で対応する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04.4 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;タイムゾーンの設定&#34;&gt;タイムゾーンの設定&lt;/h3&gt;
+&lt;p&gt;現在のタイムゾーンを確認する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Windows と Ubuntu のデュアルブート中に起動順序を変更する</title>
       <link>https://0x1feb.github.io/posts/2024/03/18/changing-the-boot-order-in-windows-and-ubuntu-dual-boot-configuration/</link>
       <pubDate>Mon, 18 Mar 2024 23:41:14 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/18/changing-the-boot-order-in-windows-and-ubuntu-dual-boot-configuration/</guid>
-      <description>概要 以下をデュアルブートしている。 Ubuntu 22.04.4 LTS Windows 11 Pro メインは Ubuntu であり、Ubuntu → Windows の起動順を設定している。 基本的には Wake on LAN で起動し、SSH で Ubuntu</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;以下をデュアルブートしている。
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04.4 LTS&lt;/li&gt;
+&lt;li&gt;Windows 11 Pro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;メインは Ubuntu であり、Ubuntu → Windows の起動順を設定している。&lt;/li&gt;
+&lt;li&gt;基本的には Wake on LAN で起動し、SSH で Ubuntu に接続する使い方をしている。&lt;/li&gt;
+&lt;li&gt;Windows を使いたいときだけ、Ubuntu 内で設定変更し、再起動したら Windows が起動するようにしたい。&lt;/li&gt;
+&lt;li&gt;今回は Ubuntu 側での変更手順のみ記載する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ lsb_release -d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Description:    Ubuntu 22.04.4 LTS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ブートエントリの確認&#34;&gt;ブートエントリの確認&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;efibootmgr&lt;/code&gt; コマンドで、現在の設定を確認する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu 22.04.4 LTS で HDD/SSD をフォーマットする</title>
       <link>https://0x1feb.github.io/posts/2024/03/17/formatting-hdd/ssd-on-ubuntu-22.04.4-lts/</link>
       <pubDate>Sun, 17 Mar 2024 22:21:25 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/17/formatting-hdd/ssd-on-ubuntu-22.04.4-lts/</guid>
-      <description>概要 新たに SSD を追加したため、フォーマットする。 前提 $ lsb_release -d Description: Ubuntu 22.04.4 LTS 手順 パーティション作成 パーティションを確認する。 $ sudo parted -l Error: /dev/sda: unrecognised disk label Model: ATA SPCC Solid State</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新たに SSD を追加したため、フォーマットする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ lsb_release -d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Description:    Ubuntu 22.04.4 LTS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;パーティション作成&#34;&gt;パーティション作成&lt;/h3&gt;
+&lt;p&gt;パーティションを確認する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo parted -l
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Error: /dev/sda: unrecognised disk label
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Model: ATA SPCC Solid State &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;scsi&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Disk /dev/sda: 1024GB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Sector size &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;logical/physical&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;: 512B/512B
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Partition Table: unknown
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Disk Flags:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;パーティション (&lt;code&gt;/dev/sda&lt;/code&gt;) を選択する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu 22.04.4 LTS にて Wake on LAN を設定する</title>
       <link>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</link>
       <pubDate>Fri, 15 Mar 2024 00:10:19 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/03/15/setting-up-wake-on-lan-on-ubuntu-22.04.4-lts/</guid>
-      <description>概要 Ubuntu 22.04.4 LTS にて Wake on LAN を設定する。 PC の電源を落としていても、WOL パケットを送信することで、電源を入れることができるようになる。 前提 $ lsb_release -d Description: Ubuntu</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04.4 LTS にて Wake on LAN を設定する。&lt;/li&gt;
+&lt;li&gt;PC の電源を落としていても、WOL パケットを送信することで、電源を入れることができるようになる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ lsb_release -d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Description:    Ubuntu 22.04.4 LTS
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ネットワークインタフェースの確認&#34;&gt;ネットワークインタフェースの確認&lt;/h3&gt;
+&lt;p&gt;ネットワークインタフェース名を調べる。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

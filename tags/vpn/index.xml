@@ -4,17 +4,27 @@
     <title>VPN on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/vpn/</link>
     <description>Recent content in VPN on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Jun 2024 09:41:53 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 09:41:53 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu で SSTP を使用して VPN 接続する</title>
       <link>https://0x1feb.github.io/posts/2024/06/25/connecting-to-a-vpn-using-sstp-on-ubuntu/</link>
       <pubDate>Tue, 25 Jun 2024 09:41:53 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/06/25/connecting-to-a-vpn-using-sstp-on-ubuntu/</guid>
-      <description>概要 SoftEther の VPN Azure (MS-SSTP Server) に Ubuntu で接続したい。 Ubuntu 24.04 LTS では、デフォルトの VPN 設定に SSTP が存在しない。 Ubuntu の VPN サーバクライアントに SSTP を設定できるようにする。 前提 Ubuntu</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SoftEther の VPN Azure (MS-SSTP Server) に Ubuntu で接続したい。&lt;/li&gt;
+&lt;li&gt;Ubuntu 24.04 LTS では、デフォルトの VPN 設定に SSTP が存在しない。&lt;/li&gt;
+&lt;li&gt;Ubuntu の VPN サーバクライアントに SSTP を設定できるようにする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;network-manager-sstp-gnome&lt;/code&gt; をインストールする。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

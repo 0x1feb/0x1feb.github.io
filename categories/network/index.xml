@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>network on 0x1feb</title>
+    <title>Network on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/network/</link>
-    <description>Recent content in network on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Network on 0x1feb</description>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 07 Jul 2024 21:16:53 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jul 2024 21:16:53 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tailscale で自宅 LAN に VPN 接続する</title>
       <link>https://0x1feb.github.io/posts/2024/07/07/connecting-to-home-lan-with-tailscale/</link>
       <pubDate>Sun, 07 Jul 2024 21:16:53 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/07/07/connecting-to-home-lan-with-tailscale/</guid>
-      <description>概要 tailscale で自宅サーバを VPN サーバとして使用する。 外部ネットワークから、自宅サーバ上で動かしている各サービスを利用する。 tailscale のネットワーク (100.64.0.0/10) で自宅サ</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;tailscale で自宅サーバを VPN サーバとして使用する。&lt;/li&gt;
+&lt;li&gt;外部ネットワークから、自宅サーバ上で動かしている各サービスを利用する。&lt;/li&gt;
+&lt;li&gt;tailscale のネットワーク (&lt;code&gt;100.64.0.0/10&lt;/code&gt;) で自宅サービスを公開するのではなく、自宅 LAN (ex.&lt;code&gt;192.168.1.0/24&lt;/code&gt;) で閉じたサービスに tailscale 経由で接続する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;tailscale 1.68.2&lt;/li&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;tailscale-のインストール&#34;&gt;tailscale のインストール&lt;/h3&gt;
+&lt;p&gt;tailscale に登録し、各端末に tailscale をインストールする。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

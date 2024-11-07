@@ -4,16 +4,27 @@
     <title>HTML/CSS on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/html/css/</link>
     <description>Recent content in HTML/CSS on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="https://0x1feb.github.io/categories/html/css/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.138.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 03 Jul 2024 22:57:44 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/html/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS grid layout を使って div 要素を配置する</title>
       <link>https://0x1feb.github.io/posts/2024/07/03/using-css-grid-layout-to-position-div-elements/</link>
       <pubDate>Wed, 03 Jul 2024 22:57:44 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/07/03/using-css-grid-layout-to-position-div-elements/</guid>
-      <description>概要 div 要素を横に3つ並べたコンポーネントを作成したい。 1つ目と2つ目は固定幅で、3つ目は最大幅で表示する。 このコンポーネントを複数列で表示し</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;div 要素を横に3つ並べたコンポーネントを作成したい。
+&lt;ul&gt;
+&lt;li&gt;1つ目と2つ目は固定幅で、3つ目は最大幅で表示する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;このコンポーネントを複数列で表示したい。&lt;/li&gt;
+&lt;li&gt;CSS grid layout を使って実現できそうだったので、記録しておく。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;実装&#34;&gt;実装&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;index.html&lt;/code&gt; は次の通り。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

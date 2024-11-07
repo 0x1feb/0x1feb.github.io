@@ -4,98 +4,258 @@
     <title>JUnit 5 on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/junit-5/</link>
     <description>Recent content in JUnit 5 on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Sep 2024 23:39:26 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/junit-5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Sep 2024 23:39:26 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/junit-5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JUnit 5 の動的テスト @TestTemplate を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/27/understanding-junit-5-test-template-annotation/</link>
       <pubDate>Fri, 27 Sep 2024 23:39:26 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/27/understanding-junit-5-test-template-annotation/</guid>
-      <description>概要 JUnit 5 の動的テストを整理する。 @TestTemplate 前提 JUnit 5 解説 @TestTemplate @TestTemplate を付与したメソッドは、登録したプロバイダから返されるコンテキストの数だけ実行されるテストメ</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 の動的テストを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@TestTemplate&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;h3 id=&#34;testtemplate&#34;&gt;&lt;code&gt;@TestTemplate&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@TestTemplate&lt;/code&gt; を付与したメソッドは、登録したプロバイダから返されるコンテキストの数だけ実行されるテストメソッドとなる。プロバイダを個別に実装することで、テストメソッドで使用するコンテキストを柔軟に制御できる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 の @TempDir でテスト実行時のみの一時ディレクトリを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/09/24/understanding-junit-5-temp-dir-annotation/</link>
       <pubDate>Tue, 24 Sep 2024 22:06:50 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/24/understanding-junit-5-temp-dir-annotation/</guid>
-      <description>概要 JUnit 5 のテストにて、テスト実行時のみに使用する一時ディレクトリを作成する。 @TempDir テスト実行時のみ実態のあるファイルやディレクトリを扱いたいとき</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 のテストにて、テスト実行時のみに使用する一時ディレクトリを作成する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@TempDir&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;テスト実行時のみ実態のあるファイルやディレクトリを扱いたいときに役立つ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;h3 id=&#34;tempdir&#34;&gt;&lt;code&gt;@TempDir&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@TempDir&lt;/code&gt; は、一時ディレクトリを作成するアノテーションである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 の動的テスト @ParameterizedTest を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/23/understanding-junit-5-parameterized-test-annotation/</link>
       <pubDate>Mon, 23 Sep 2024 12:40:01 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/23/understanding-junit-5-parameterized-test-annotation/</guid>
-      <description>概要 JUnit 5 の動的テストを整理する。 @ParameterizedTest @ValueSource @EnumSource @MethodSource @CsvSource @CsvFileSource @ArgumentsSource @ArgumentsSources 前提 JUnit 5 解説 @ParameterizedTest @ParameterizedTest は、単一のテストメソッドを複数の入力値またはパラメーターで実行できるようにす</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 の動的テストを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@ParameterizedTest&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@ValueSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@EnumSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@MethodSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@CsvSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@CsvFileSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@ArgumentsSource&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@ArgumentsSources&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;h3 id=&#34;parameterizedtest&#34;&gt;&lt;code&gt;@ParameterizedTest&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@ParameterizedTest&lt;/code&gt; は、単一のテストメソッドを複数の入力値またはパラメーターで実行できるようにするアノテーションである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 の動的テスト @RepeatedTest を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/09/understanding-junit-5-repeated-test-annotation/</link>
       <pubDate>Mon, 09 Sep 2024 19:20:26 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/09/understanding-junit-5-repeated-test-annotation/</guid>
-      <description>概要 JUnit 5 の動的テストを整理する。 @RepeatedTest 前提 JUnit 5 解説 @RepeatedTest @RepeatedTest は、指定した回数だけテストメソッドを繰り返すテストである。 例えば、以下の ExampleRepeatedTest は、@Repea</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 の動的テストを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@RepeatedTest&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;h3 id=&#34;repeatedtest&#34;&gt;&lt;code&gt;@RepeatedTest&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@RepeatedTest&lt;/code&gt; は、指定した回数だけテストメソッドを繰り返すテストである。&lt;/p&gt;
+&lt;p&gt;例えば、以下の &lt;code&gt;ExampleRepeatedTest&lt;/code&gt; は、&lt;code&gt;@RepeatedTest(2)&lt;/code&gt; が付与されたテストを 1 つ持つ。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 の静的テスト @Test を整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</link>
       <pubDate>Sun, 08 Sep 2024 23:48:51 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/08/understanding-junit-5-test-annotation/</guid>
-      <description>概要 JUnit 5 の静的テストを整理する。 @Test 前提 JUnit 5 解説 @Test @Test アノテーションは、付与したメソッドがテストメソッドであることを表す。 以下の ExampleTest は、@Test</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 の静的テストを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@Test&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;解説&#34;&gt;解説&lt;/h2&gt;
+&lt;h3 id=&#34;test&#34;&gt;&lt;code&gt;@Test&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@Test&lt;/code&gt; アノテーションは、付与したメソッドがテストメソッドであることを表す。&lt;/p&gt;
+&lt;p&gt;以下の &lt;code&gt;ExampleTest&lt;/code&gt; は、&lt;code&gt;@Test&lt;/code&gt; のテストを 2 つ持つ。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 のライフサイクルを整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/07/understanding-junit-5-lifecycle/</link>
       <pubDate>Sat, 07 Sep 2024 18:17:26 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/07/understanding-junit-5-lifecycle/</guid>
-      <description>概要 JUnit 5 のライフサイクルを整理する。 @TestInstance TestInstance.Lifecycle.PER_METHOD TestInstance.Lifecycle.PER_CLASS @BeforeAll @AfterAll @BeforeEach @AfterEach 前提 JUnit 5 説明 ライフサイクル JUnit 5 のテストクラスは、以下の 2 つのライフサイクルがある。 TestInstance.Lifecycle.PER_METHOD メソッ</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 のライフサイクルを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@TestInstance&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;TestInstance.Lifecycle.PER_METHOD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TestInstance.Lifecycle.PER_CLASS&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@BeforeAll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@AfterAll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@BeforeEach&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@AfterEach&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;h3 id=&#34;ライフサイクル&#34;&gt;ライフサイクル&lt;/h3&gt;
+&lt;p&gt;JUnit 5 のテストクラスは、以下の 2 つのライフサイクルがある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;TestInstance.Lifecycle.PER_METHOD&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;メソッド単位でテストクラスオブジェクトが生成される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TestInstance.Lifecycle.PER_CLASS&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;クラス単位でテストクラスオブジェクトが生成される。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;テストクラスのライフサイクルは、テストクラスに &lt;code&gt;@TestInstance&lt;/code&gt; アノテーションを付与することで設定できる。&lt;code&gt;@TestInstance&lt;/code&gt; を付与していない場合のデフォルトのライフサイクルは、&lt;code&gt;PER_METHOD&lt;/code&gt; である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 のテストクラスを整理する</title>
       <link>https://0x1feb.github.io/posts/2024/09/06/junit-5-test-classes/</link>
       <pubDate>Fri, 06 Sep 2024 11:17:08 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/06/junit-5-test-classes/</guid>
-      <description>概要 JUnit 5 のテストクラスを整理する。 テストクラス @Nested 前提 JUnit 5 説明 テストクラス名 基本的には、テスト対象のクラス名の末尾に Test を付与したクラス名を使う</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 のテストクラスを整理する。
+&lt;ul&gt;
+&lt;li&gt;テストクラス&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;@Nested&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;h3 id=&#34;テストクラス名&#34;&gt;テストクラス名&lt;/h3&gt;
+&lt;p&gt;基本的には、テスト対象のクラス名の末尾に &lt;code&gt;Test&lt;/code&gt; を付与したクラス名を使うと良い。&lt;/p&gt;
+&lt;p&gt;JUnit は、デフォルトで以下の正規表現に一致するクラスがテストクラスとして検出される。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Maven で JUnit 5 の @DisplayName が反映されない問題に対処する</title>
       <link>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</link>
       <pubDate>Thu, 05 Sep 2024 12:47:40 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/05/fixing-display-name-annotation-issue-in-maven-with-junit-5/</guid>
-      <description>概要 JUnit 5 にて、 @DisplayName を付与したテストを実行しても、実行結果に @DisplayName で設定した名前が反映されない。 maven-surefire-plugin の設定を入れることで、@DisplayName が反</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 にて、 &lt;code&gt;@DisplayName&lt;/code&gt; を付与したテストを実行しても、実行結果に &lt;code&gt;@DisplayName&lt;/code&gt; で設定した名前が反映されない。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;maven-surefire-plugin&lt;/code&gt; の設定を入れることで、&lt;code&gt;@DisplayName&lt;/code&gt; が反映されるようになる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;li&gt;Maven 3.8.x+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;pom.xml&lt;/code&gt; に以下を設定する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 5 で Java のテストコードを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</link>
       <pubDate>Wed, 04 Sep 2024 15:36:05 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/04/writing-test-code-in-java-using-junit-5/</guid>
-      <description>概要 JUnit 5 について、最低限の動きを整理する。 @Test アノテーション assertEquals fail 前提 JUnit 5 Java 8 (or higher) 今回のサンプルは Java 21 で作成 手順 ライブラリの設定 JUnit 5 User Guide の以下の</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5 について、最低限の動きを整理する。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;@Test&lt;/code&gt; アノテーション&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;assertEquals&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fail&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;li&gt;Java 8 (or higher)
+&lt;ul&gt;
+&lt;li&gt;今回のサンプルは Java 21 で作成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ライブラリの設定&#34;&gt;ライブラリの設定&lt;/h3&gt;
+&lt;p&gt;JUnit 5 User Guide の以下の章を参照し、環境に合わせて JUnit 5 に必要なライブラリを設定する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>JUnit 4 から JUnit 5 に移行する</title>
       <link>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</link>
       <pubDate>Sun, 01 Sep 2024 10:57:31 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/09/01/migrating-from-junit-4-to-junit-5/</guid>
-      <description>概要 JUnit 4 のテストコードを JUnit 5 に移行する。 JUnit 4 のテストコードはそのままにして、新規のテストコードは JUnit 5 で作成する。 前提 JUnit 4 JUnit 5 手順 JUnit 5 ライブラ</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 4 のテストコードを JUnit 5 に移行する。&lt;/li&gt;
+&lt;li&gt;JUnit 4 のテストコードはそのままにして、新規のテストコードは JUnit 5 で作成する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;JUnit 4&lt;/li&gt;
+&lt;li&gt;JUnit 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;junit-5-ライブラリの追加&#34;&gt;JUnit 5 ライブラリの追加&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/junit-team/junit5-samples/tree/main/junit5-migration-maven&#34;&gt;junit5-samples/junit5-migration-maven at main · junit-team/junit5-samples&lt;/a&gt; を参考に、&lt;code&gt;pom.xml&lt;/code&gt; を更新する。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

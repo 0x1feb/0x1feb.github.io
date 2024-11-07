@@ -4,17 +4,34 @@
     <title>Outlook on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/outlook/</link>
     <description>Recent content in Outlook on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/outlook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Oct 2024 09:56:27 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/outlook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PowerShell のスクリプトで Outlook のメールを作成する</title>
       <link>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</link>
       <pubDate>Tue, 08 Oct 2024 09:56:27 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/10/08/creating-outlook-mail-in-powershell/</guid>
-      <description>概要 PowerShell のスクリプトで Outlook のメールを作成・送信する。 メールに設定する内容は JSON で定義する。 前提 PowerShell 7.4.5 説明 以下を引数に持つ関数 New-OutlookMail を作成した。 件名 宛先 (To,</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell のスクリプトで Outlook のメールを作成・送信する。&lt;/li&gt;
+&lt;li&gt;メールに設定する内容は JSON で定義する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7.4.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;説明&#34;&gt;説明&lt;/h2&gt;
+&lt;p&gt;以下を引数に持つ関数 &lt;code&gt;New-OutlookMail&lt;/code&gt; を作成した。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;件名&lt;/li&gt;
+&lt;li&gt;宛先 (To, CC, BCC)&lt;/li&gt;
+&lt;li&gt;本文&lt;/li&gt;
+&lt;li&gt;配信日時&lt;/li&gt;
+&lt;li&gt;送信前に画面表示するかの制御&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;また、送信前に画面表示するか、そのまま送信するかを &lt;code&gt;SendWithoutDisplay&lt;/code&gt; で制御している。デフォルトでは送信前に画面表示する。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

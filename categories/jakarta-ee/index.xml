@@ -4,17 +4,31 @@
     <title>Jakarta EE on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/jakarta-ee/</link>
     <description>Recent content in Jakarta EE on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/jakarta-ee/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Aug 2024 14:00:10 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/jakarta-ee/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jakarta Faces 4.0 で JavaScript を defer/async で読み込む</title>
       <link>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</link>
       <pubDate>Fri, 02 Aug 2024 14:00:10 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2024/08/02/loading-javascript-with-defer-or-async-attributes-in-jakarta-faces-4.0/</guid>
-      <description>概要 Jakarta Faces 4.0 の XHTML にて、&amp;lt;h:outputScript&amp;gt; に defer/async 属性を付与できなかった。 &amp;lt;script src=&amp;quot;...&amp;quot; defer=&amp;quot;defer&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; タグを使って読み込むことで対応した。 前提 Jakarta</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jakarta Faces 4.0 の XHTML にて、&lt;code&gt;&amp;lt;h:outputScript&amp;gt;&lt;/code&gt; に defer/async 属性を付与できなかった。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;...&amp;quot; defer=&amp;quot;defer&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; タグを使って読み込むことで対応した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jakarta Faces 4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;実装&#34;&gt;実装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src/main/webapp/resources/js/main.js&lt;/code&gt; を &lt;code&gt;defer&lt;/code&gt; 属性で読み込む。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;修正前&#34;&gt;修正前&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-xtml&#34; data-lang=&#34;xtml&#34;&gt;&amp;lt;h:outputScript library=&amp;#34;js&amp;#34; src=&amp;#34;main.js&amp;#34; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;なお、以下のような記載にしても、&lt;code&gt;defer&lt;/code&gt; や &lt;code&gt;async&lt;/code&gt; は反映されなかった。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

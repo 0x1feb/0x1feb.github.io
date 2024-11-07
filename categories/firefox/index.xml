@@ -4,17 +4,47 @@
     <title>Firefox on 0x1feb</title>
     <link>https://0x1feb.github.io/categories/firefox/</link>
     <description>Recent content in Firefox on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 22 Mar 2023 14:49:48 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/categories/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 14:49:48 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/firefox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefox の上部にあるタブを非表示にする</title>
       <link>https://0x1feb.github.io/posts/2023/03/22/hide-the-horizontal-tabs-at-the-top-of-the-firefox-window/</link>
       <pubDate>Wed, 22 Mar 2023 14:49:48 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2023/03/22/hide-the-horizontal-tabs-at-the-top-of-the-firefox-window/</guid>
-      <description>背景 Firefox のアドオンであるツリー型タブ (Tree Style Tab) を使用しており、現在開いているタブはサイドバーに表示している。 ブラウザ上部に表示されている従来のタブ</description>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Firefox のアドオンであるツリー型タブ (Tree Style Tab) を使用しており、現在開いているタブはサイドバーに表示している。&lt;/li&gt;
+&lt;li&gt;ブラウザ上部に表示されている従来のタブは使用しないため、非表示にしたい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11&lt;/li&gt;
+&lt;li&gt;Firefox 111.0.1 (64 ビット)&lt;/li&gt;
+&lt;li&gt;Tree Style Tab 3.9.14&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Firefox の外観を変更できるオプションを有効化する。&lt;/li&gt;
+&lt;li&gt;userChrome.css で外観をカスタマイズする。
+&lt;ul&gt;
+&lt;li&gt;上部のタブバーを非表示にする。&lt;/li&gt;
+&lt;li&gt;右上のウィンドウ操作ボタンを1段下のメニューの右端に移動する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;userchromecss-を有効化する&#34;&gt;userChrome.css を有効化する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Firefox にて &lt;code&gt;about:config&lt;/code&gt; を開く。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;toolkit.legacyUserProfileCustomizations.stylesheets&lt;/code&gt; を検索する。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;true&lt;/code&gt; に設定する。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;userchromecss-を配置する&#34;&gt;userChrome.css を配置する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Firefox にて &lt;code&gt;about:support&lt;/code&gt; を開く。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

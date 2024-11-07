@@ -4,17 +4,41 @@
     <title>Kotlin on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/kotlin/</link>
     <description>Recent content in Kotlin on 0x1feb</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Jan 2023 17:43:15 +0900</lastBuildDate><atom:link href="https://0x1feb.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 17:43:15 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android アプリ入門</title>
       <link>https://0x1feb.github.io/posts/2023/01/03/basic-android-kotlin-compose-first-app/</link>
       <pubDate>Tue, 03 Jan 2023 17:43:15 +0900</pubDate>
-      
       <guid>https://0x1feb.github.io/posts/2023/01/03/basic-android-kotlin-compose-first-app/</guid>
-      <description>概要 Android アプリを作ってみたくなったので、チュートリアルを試してみた結果をメモとして残す。 準備 Kotlin の基礎知識があること。 Android Studio がインストールされてい</description>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;Android アプリを作ってみたくなったので、チュートリアルを試してみた結果をメモとして残す。&lt;/p&gt;
+&lt;h2 id=&#34;準備&#34;&gt;準備&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Kotlin の基礎知識があること。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.android.com/studio?hl=ja&#34;&gt;Android Studio&lt;/a&gt; がインストールされていること。&lt;/li&gt;
+&lt;li&gt;実機でアプリを動かす場合は確認用の Android 端末があること。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;サンプルアプリの作成&#34;&gt;サンプルアプリの作成&lt;/h2&gt;
+&lt;h3 id=&#34;テンプレートからプロジェクトを作成する&#34;&gt;テンプレートからプロジェクトを作成する&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Android Studio を起動し、[New Project] をクリックする。&lt;/li&gt;
+&lt;li&gt;[Phone and Tablet] を選択し、[Empty Compose Activity] を選択する。&lt;/li&gt;
+&lt;li&gt;[Next] をクリックする。&lt;/li&gt;
+&lt;li&gt;以下を入力する。
+&lt;ul&gt;
+&lt;li&gt;Name: &lt;code&gt;GreetingCard&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Package name: &lt;code&gt;com.example.greetingcard&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Save location: &lt;code&gt;任意のパス&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Language: &lt;code&gt;Kotlin&lt;/code&gt; (固定)&lt;/li&gt;
+&lt;li&gt;Minimum SDK: &lt;code&gt;API 21: Android 5.0 (Lollipop)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;[Finish] をクリックする。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;読み込みが終わるまで時間がかかるのでしばらく待つと、テンプレートを使用したプロジェクトが作成される。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
