@@ -6,8 +6,22 @@
     <description>Recent content in C&#43;&#43; on 0x1feb</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Oct 2022 21:14:34 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 13:43:18 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AtCoder の C&#43;&#43; 23 (gcc 12.2) ビルド環境を Docker で構築する</title>
+      <link>https://0x1feb.github.io/posts/2024/11/10/building-c-23-gcc-12.2-environment-with-docker/</link>
+      <pubDate>Sun, 10 Nov 2024 13:43:18 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2024/11/10/building-c-23-gcc-12.2-environment-with-docker/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AtCoder に提出する C++ 23 のソースコードをローカルで実行できる環境を Docker で構築する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://atcoder.jp/contests/APG4b/rules&#34;&gt;ルール - C++入門 AtCoder Programming Guide for beginners (APG4b)&lt;/a&gt; の C++ 23 (gcc 12.2) にあるコンパイル・インタプリタの実行環境を構築する。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C&#43;&#43; の std::map メモ</title>
       <link>https://0x1feb.github.io/posts/2022/10/26/cpp-map-memo/</link>
