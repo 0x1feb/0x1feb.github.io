@@ -38,46 +38,8 @@ int main() {
 
   return 0;
 }
-実行した結果は以下のとおり。'><meta name=author content="Me"><link rel=canonical href=https://0x1feb.github.io/posts/2022/12/29/insertion-sort/><link crossorigin=anonymous href=/assets/css/stylesheet.02e26eee2d4365b783ee5fae0cb7668af996d806b83072514ace3844574d42fb.css integrity="sha256-AuJu7i1DZbeD7l+uDLdmivmW2Aa4MHJRSs44RFdNQvs=" rel="preload stylesheet" as=style><link rel=icon href=https://0x1feb.github.io/img/favicon.svg><link rel=icon type=image/png sizes=16x16 href=https://0x1feb.github.io/img/favicon.svg><link rel=icon type=image/png sizes=32x32 href=https://0x1feb.github.io/img/favicon.svg><link rel=apple-touch-icon href=https://0x1feb.github.io/img/favicon.svg><link rel=mask-icon href=https://0x1feb.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://0x1feb.github.io/posts/2022/12/29/insertion-sort/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css integrity=sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0 crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js integrity=sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4 crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})})</script><meta property="og:title" content="挿入ソート (Insertion sort)"><meta property="og:description" content='挿入ソートとは、未ソートの部分から取り出した要素を、ソート済みの部分の適切な位置に挿入するソートアルゴリズムである。
-ソースコード
-#include <bits/stdc++.h>
-#define rep(i, n) for (int i = 0; i < (n); ++i)
-using namespace std;
-using vi = vector<int>;
-
-void print_list(vi A, int n) {
-  rep(i, n) cout << (i > 0 ? " " : "") << A[i];
-  cout << endl;
-}
-
-void insertion_sort(vi &amp;A, int n) {
-  rep(i, n - 1) {
-    // i番目までソート済み
-    // i+1番目の要素を挿入対象とする
-    int tmp = A[i + 1];
-    // 整列済みの要素 (A[j], A[j-1], ..., A[0]) の中で適切な挿入位置を探す
-    int j = i;
-    while (j >= 0 && A[j] > tmp) {
-      A[j + 1] = A[j];
-      j--;
-    }
-    A[j + 1] = tmp;
-
-    print_list(A, n);
-  }
-}
-
-int main() {
-  int n;
-  cin >> n;
-  vi A(n);
-  rep(i, n) cin >> A[i];
-
-  insertion_sort(A, n);
-
-  return 0;
-}
-実行した結果は以下のとおり。'><meta property="og:type" content="article"><meta property="og:url" content="https://0x1feb.github.io/posts/2022/12/29/insertion-sort/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-12-29T11:37:28+09:00"><meta property="article:modified_time" content="2022-12-29T11:37:28+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="挿入ソート (Insertion sort)"><meta name=twitter:description content='挿入ソートとは、未ソートの部分から取り出した要素を、ソート済みの部分の適切な位置に挿入するソートアルゴリズムである。
+実行した結果は以下のとおり。'><meta name=author content="Me"><link rel=canonical href=https://0x1feb.github.io/posts/2022/12/29/insertion-sort/><link crossorigin=anonymous href=/assets/css/stylesheet.74f53f284af6bc2ce022ea712ef73827fbdd251a4b016503e9c1c2139efe59fc.css integrity="sha256-dPU/KEr2vCzgIupxLvc4J/vdJRpLAWUD6cHCE57+Wfw=" rel="preload stylesheet" as=style><link rel=icon href=https://0x1feb.github.io/img/favicon.svg><link rel=icon type=image/png sizes=16x16 href=https://0x1feb.github.io/img/favicon.svg><link rel=icon type=image/png sizes=32x32 href=https://0x1feb.github.io/img/favicon.svg><link rel=apple-touch-icon href=https://0x1feb.github.io/img/favicon.svg><link rel=mask-icon href=https://0x1feb.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://0x1feb.github.io/posts/2022/12/29/insertion-sort/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css integrity=sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0 crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js integrity=sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4 crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})})</script><meta property="og:url" content="https://0x1feb.github.io/posts/2022/12/29/insertion-sort/"><meta property="og:site_name" content="0x1feb"><meta property="og:title" content="挿入ソート (Insertion sort)"><meta property="og:description" content='挿入ソートとは、未ソートの部分から取り出した要素を、ソート済みの部分の適切な位置に挿入するソートアルゴリズムである。
+ソースコード #include <bits/stdc++.h> #define rep(i, n) for (int i = 0; i < (n); ++i) using namespace std; using vi = vector<int>; void print_list(vi A, int n) { rep(i, n) cout << (i > 0 ? " " : "") << A[i]; cout << endl; } void insertion_sort(vi &amp;A, int n) { rep(i, n - 1) { // i番目までソート済み // i+1番目の要素を挿入対象とする int tmp = A[i + 1]; // 整列済みの要素 (A[j], A[j-1], ..., A[0]) の中で適切な挿入位置を探す int j = i; while (j >= 0 && A[j] > tmp) { A[j + 1] = A[j]; j--; } A[j + 1] = tmp; print_list(A, n); } } int main() { int n; cin >> n; vi A(n); rep(i, n) cin >> A[i]; insertion_sort(A, n); return 0; } 実行した結果は以下のとおり。'><meta property="og:locale" content="ja"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-12-29T11:37:28+09:00"><meta property="article:modified_time" content="2022-12-29T11:37:28+09:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="挿入ソート (Insertion sort)"><meta name=twitter:description content='挿入ソートとは、未ソートの部分から取り出した要素を、ソート済みの部分の適切な位置に挿入するソートアルゴリズムである。
 ソースコード
 #include <bits/stdc++.h>
 #define rep(i, n) for (int i = 0; i < (n); ++i)
