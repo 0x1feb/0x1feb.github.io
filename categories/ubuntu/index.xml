@@ -6,8 +6,26 @@
     <description>Recent content in Ubuntu on 0x1feb</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Sep 2024 10:04:05 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 21:16:18 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu に Syncthing をインストールして複数端末間のローカルファイルを同期する</title>
+      <link>https://0x1feb.github.io/posts/2024/11/15/installing-syncthing-on-ubuntu-to-synchronize-local-files-between-multiple-devices/</link>
+      <pubDate>Fri, 15 Nov 2024 21:16:18 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2024/11/15/installing-syncthing-on-ubuntu-to-synchronize-local-files-between-multiple-devices/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Syncthing は、ローカルにあるファイルを複数端末間で同期できるソフトウェアである。&lt;/li&gt;
+&lt;li&gt;Ubuntu/Windows/Android 間で同じファイルを同期するよう設定する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Syncthing v1.28.1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;syncthing-のインストール&#34;&gt;Syncthing のインストール&lt;/h3&gt;
+&lt;p&gt;各端末に Syncthing をインストールする。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu のセキュリティアップデートを定期実行/自動再起動する</title>
       <link>https://0x1feb.github.io/posts/2024/09/02/automating-security-updates-and-reboots-on-ubuntu/</link>
