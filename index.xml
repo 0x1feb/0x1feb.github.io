@@ -4,10 +4,107 @@
     <title>0x1feb</title>
     <link>https://0x1feb.github.io/</link>
     <description>Recent content on 0x1feb</description>
-    <generator>Hugo -- 0.138.0</generator>
+    <generator>Hugo -- 0.139.0</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 15 Nov 2024 21:16:18 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 21 Nov 2024 09:26:08 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新しい PC を組んだときの構成メモ</title>
+      <link>https://0x1feb.github.io/posts/2024/11/21/configuration-notes-when-building-a-new-pc/</link>
+      <pubDate>Thu, 21 Nov 2024 09:26:08 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2024/11/21/configuration-notes-when-building-a-new-pc/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;メモリ不足で PC の動作が重くなってきたため、メモリ増設を検討した。&lt;/li&gt;
+&lt;li&gt;2017 年に自作した PC だったため、新しいものを組むことにした。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;検討&#34;&gt;検討&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2017 年に組んで使っていた PC は ATX サイズでケースが大きく、移動や掃除が大変だった。
+&lt;ul&gt;
+&lt;li&gt;頻繁にパーツを交換することもなかったため、なるべく小さい構成にしたい。&lt;/li&gt;
+&lt;li&gt;Mini-ITX サイズで手ごろなケース DeepCool CH160 が発売するがタイミングだったため、このケースに合わせてパーツを選んだ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;メモリは 16GB で不足していたため、32GB (16x2) か 64GB (32x2) のどちらかにしたい。
+&lt;ul&gt;
+&lt;li&gt;32GB と 64GB の価格差は 10,000 円だったため、かなり余裕のある 64GB にした。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CH160 で使える電源は、 ATX, SFX, SFX-L のいずれかである。
+&lt;ul&gt;
+&lt;li&gt;ATX は値段が安いが、ケースの全面が埋まってしまうため、エアフローが悪くなる気がした。&lt;/li&gt;
+&lt;li&gt;SFX, SFX-L なら全面にケースファンを付けられるため、このどちらかから選んだ。&lt;/li&gt;
+&lt;li&gt;SFX, SFX-L 電源は、製品自体が少なかったため、必要最低限かつ安かったものを選んだ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GPU は、現在使っているパーツをそのまま流用した。&lt;/li&gt;
+&lt;li&gt;OS は、現在使っているライセンスを移行した。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;構成&#34;&gt;構成&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;category&lt;/th&gt;
+          &lt;th&gt;name&lt;/th&gt;
+          &lt;th&gt;price&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Case&lt;/td&gt;
+          &lt;td&gt;DeepCool CH160&lt;/td&gt;
+          &lt;td&gt;7,800 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Case Fan&lt;/td&gt;
+          &lt;td&gt;MEG SILENT GALE P12&lt;/td&gt;
+          &lt;td&gt;2,316 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;OS&lt;/td&gt;
+          &lt;td&gt;Windows 11 Pro&lt;/td&gt;
+          &lt;td&gt;-(流用)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CPU&lt;/td&gt;
+          &lt;td&gt;Ryzen 5 7600 BOX&lt;/td&gt;
+          &lt;td&gt;32,800 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;CPU Cooler&lt;/td&gt;
+          &lt;td&gt;AK400 R-AK400-BKNNMN-G-1&lt;/td&gt;
+          &lt;td&gt;3,280 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;RAM&lt;/td&gt;
+          &lt;td&gt;CP2K32G56C46U5 [DDR5 PC5-44800 32GB 2 枚組]&lt;/td&gt;
+          &lt;td&gt;23,036 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;MB&lt;/td&gt;
+          &lt;td&gt;MPG B650I EDGE WIFI&lt;/td&gt;
+          &lt;td&gt;33,931 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;GPU&lt;/td&gt;
+          &lt;td&gt;DUAL-RTX3060-O12G-V2 [PCIExp 12GB]&lt;/td&gt;
+          &lt;td&gt;-(流用)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;SSD&lt;/td&gt;
+          &lt;td&gt;T500 CT2000T500SSD8JP (2TB)&lt;/td&gt;
+          &lt;td&gt;21,191 円&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PSU&lt;/td&gt;
+          &lt;td&gt;ION SFX 650G FD-PSU-ION-SFX-650G-BK&lt;/td&gt;
+          &lt;td&gt;15,164 円&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;合計金額は、139,518 円だった。なお、OS と GPU は流用しているため、値段に含まれていない。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu に Syncthing をインストールして複数端末間のローカルファイルを同期する</title>
       <link>https://0x1feb.github.io/posts/2024/11/15/installing-syncthing-on-ubuntu-to-synchronize-local-files-between-multiple-devices/</link>
