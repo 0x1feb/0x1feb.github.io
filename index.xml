@@ -4,10 +4,35 @@
     <title>0x1feb</title>
     <link>https://0x1feb.github.io/</link>
     <description>Recent content on 0x1feb</description>
-    <generator>Hugo -- 0.139.0</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 21 Nov 2024 09:26:08 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 00:09:35 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ollama を使用し、ローカル環境で DeepSeek-R1 を実行する</title>
+      <link>https://0x1feb.github.io/posts/2025/01/28/running-deepseek-r1-locally-using-ollama/</link>
+      <pubDate>Tue, 28 Jan 2025 00:09:35 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/01/28/running-deepseek-r1-locally-using-ollama/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ollama を使用し、ローカル環境で DeepSeek-R1 を実行する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ollama version is 0.5.7&lt;/li&gt;
+&lt;li&gt;NVIDIA GeForce RTX 3060 12GB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ollama-のインストール&#34;&gt;Ollama のインストール&lt;/h3&gt;
+&lt;p&gt;以下より、Ollama をダウンロードし、インストールする。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ollama.com/&#34;&gt;Ollama&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-pwsh&#34; data-lang=&#34;pwsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ollama -v
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ollama version is 0.5.7
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;モデルの実行&#34;&gt;モデルの実行&lt;/h3&gt;
+&lt;p&gt;シェルを開き、DeepSeek-R1 を実行する。モデルは &lt;a href=&#34;https://ollama.com/library/deepseek-r1&#34;&gt;deepseek-r1&lt;/a&gt; にて公開されている。パラメータ数に応じてモデルのサイズや快適に動作するスペックも変わるため、小さいモデルから試すのが良いかもしれない。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>新しい PC を組んだときの構成メモ</title>
       <link>https://0x1feb.github.io/posts/2024/11/21/configuration-notes-when-building-a-new-pc/</link>
