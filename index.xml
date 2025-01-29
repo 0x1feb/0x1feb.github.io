@@ -6,8 +6,28 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 Jan 2025 00:09:35 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 09:21:23 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open WebUI で Ollama のローカル LLM をブラウザから使う</title>
+      <link>https://0x1feb.github.io/posts/2025/01/29/using-ollama-locally-with-open-webui/</link>
+      <pubDate>Wed, 29 Jan 2025 09:21:23 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/01/29/using-ollama-locally-with-open-webui/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open WebUI を WSL2 の Podman で動かす。&lt;/li&gt;
+&lt;li&gt;ローカルで動かしている Ollama を Open WebUI から呼び出す。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ollama version is 0.5.7&lt;/li&gt;
+&lt;li&gt;Podman (Docker)&lt;/li&gt;
+&lt;li&gt;NVIDIA GeForce RTX 3060 12GB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;ollama-のインストール&#34;&gt;Ollama のインストール&lt;/h3&gt;
+&lt;p&gt;以下より、Ollama をダウンロードし、インストールする。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ollama を使用し、ローカル環境で DeepSeek-R1 を実行する</title>
       <link>https://0x1feb.github.io/posts/2025/01/28/running-deepseek-r1-locally-using-ollama/</link>
