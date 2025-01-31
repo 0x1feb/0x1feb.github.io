@@ -6,8 +6,33 @@
     <description>Recent content in PowerShell on 0x1feb</description>
     <generator>Hugo -- 0.142.0</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 07 Nov 2024 22:40:56 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2025 20:13:17 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerShell の起動時に自動でスクリプトを実行する</title>
+      <link>https://0x1feb.github.io/posts/2025/01/31/running-a-script-at-powershell-startup/</link>
+      <pubDate>Fri, 31 Jan 2025 20:13:17 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/01/31/running-a-script-at-powershell-startup/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell のプロファイルを作成する。&lt;/li&gt;
+&lt;li&gt;プロファイルに任意のスクリプトを記載する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PowerShell 7.5.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;プロファイルパスの確認&#34;&gt;プロファイルパスの確認&lt;/h3&gt;
+&lt;p&gt;以下コマンドを実行し、プロファイルのパスを確認する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-pwsh&#34; data-lang=&#34;pwsh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$PROFILE | Select-Object *
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AllUsersAllHosts       : C:\Program Files\PowerShell\7\profile.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AllUsersCurrentHost    : C:\Program Files\PowerShell\7\Microsoft.PowerShell_profile.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CurrentUserAllHosts    : C:\Users\{user}\Documents\PowerShell\profile.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CurrentUserCurrentHost : C:\Users\{user}\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Length                 : 74
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;$PROFILE&lt;/code&gt; 変数は、以下の値を持っている。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PowerShell で特定ポートの疎通を確認する</title>
       <link>https://0x1feb.github.io/posts/2024/11/07/powershell-port-testing/</link>
