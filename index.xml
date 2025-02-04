@@ -4,10 +4,29 @@
     <title>0x1feb</title>
     <link>https://0x1feb.github.io/</link>
     <description>Recent content on 0x1feb</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 31 Jan 2025 20:13:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 21:20:00 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu Server 22.04 LTS に Podman をインストールする</title>
+      <link>https://0x1feb.github.io/posts/2025/02/04/installing-podman-on-ubuntu-server-22.04-lts/</link>
+      <pubDate>Tue, 04 Feb 2025 21:20:00 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/02/04/installing-podman-on-ubuntu-server-22.04-lts/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Server 22.04 LTS に Podman をインストールする。&lt;/li&gt;
+&lt;li&gt;Podman で作成したコンテナをサービスとして実行できるようにする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Server 22.04 LTS&lt;/li&gt;
+&lt;li&gt;podman version 3.4.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;インストール&#34;&gt;インストール&lt;/h3&gt;
+&lt;p&gt;以下のコマンドを実行し、Podman をインストールする。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PowerShell の起動時に自動でスクリプトを実行する</title>
       <link>https://0x1feb.github.io/posts/2025/01/31/running-a-script-at-powershell-startup/</link>

@@ -4,10 +4,24 @@
     <title>Tags on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/</link>
     <description>Recent content in Tags on 0x1feb</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jan 2025 09:21:23 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 21:20:00 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://0x1feb.github.io/tags/docker/</link>
+      <pubDate>Tue, 04 Feb 2025 21:20:00 +0900</pubDate>
+      <guid>https://0x1feb.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>https://0x1feb.github.io/tags/podman/</link>
+      <pubDate>Tue, 04 Feb 2025 21:20:00 +0900</pubDate>
+      <guid>https://0x1feb.github.io/tags/podman/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ollama</title>
       <link>https://0x1feb.github.io/tags/ollama/</link>
@@ -27,13 +41,6 @@
       <link>https://0x1feb.github.io/tags/deepseek-r1/</link>
       <pubDate>Tue, 28 Jan 2025 00:09:35 +0900</pubDate>
       <guid>https://0x1feb.github.io/tags/deepseek-r1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Podman</title>
-      <link>https://0x1feb.github.io/tags/podman/</link>
-      <pubDate>Sun, 10 Nov 2024 13:43:18 +0900</pubDate>
-      <guid>https://0x1feb.github.io/tags/podman/</guid>
       <description></description>
     </item>
     <item>
