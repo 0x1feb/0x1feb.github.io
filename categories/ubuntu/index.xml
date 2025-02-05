@@ -6,8 +6,27 @@
     <description>Recent content in Ubuntu on 0x1feb</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Feb 2025 21:20:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 21:09:53 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04 LTS を Ubuntu 24.04 LTS にアップグレードする</title>
+      <link>https://0x1feb.github.io/posts/2025/02/05/upgrading-ubuntu-22.04-lts-to-ubuntu-24.04-lts/</link>
+      <pubDate>Wed, 05 Feb 2025 21:09:53 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/02/05/upgrading-ubuntu-22.04-lts-to-ubuntu-24.04-lts/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS を Ubuntu 24.04 LTS にアップグレードする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 22.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;バックアップ&#34;&gt;バックアップ&lt;/h3&gt;
+&lt;p&gt;最悪動かなくなる場合を想定し、必要なデータをバックアップする。&lt;/p&gt;
+&lt;h3 id=&#34;ubuntu-2204-lts-の最新化&#34;&gt;Ubuntu 22.04 LTS の最新化&lt;/h3&gt;
+&lt;p&gt;現在のシステムを最新化する。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu Server 22.04 LTS に Podman をインストールする</title>
       <link>https://0x1feb.github.io/posts/2025/02/04/installing-podman-on-ubuntu-server-22.04-lts/</link>
