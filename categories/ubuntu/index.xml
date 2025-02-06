@@ -6,8 +6,27 @@
     <description>Recent content in Ubuntu on 0x1feb</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Feb 2025 21:09:53 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 23:33:35 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH 接続で起動した Podman のコンテナを SSH 切断後も停止しないようにする</title>
+      <link>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</link>
+      <pubDate>Thu, 06 Feb 2025 23:33:35 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS に SSH 接続して Podman のコンテナを実行し、SSH 切断するとコンテナが停止してしまう。&lt;/li&gt;
+&lt;li&gt;SSH 切断後もコンテナが動作し続けるように対処する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Server 24.04 LTS&lt;/li&gt;
+&lt;li&gt;podman version 4.9.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;podman-サービスの自動起動設定&#34;&gt;Podman サービスの自動起動設定&lt;/h3&gt;
+&lt;p&gt;以下コマンドを実行し、サーバ起動時にコンテナが自動起動するようにする。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu 22.04 LTS を Ubuntu 24.04 LTS にアップグレードする</title>
       <link>https://0x1feb.github.io/posts/2025/02/05/upgrading-ubuntu-22.04-lts-to-ubuntu-24.04-lts/</link>
