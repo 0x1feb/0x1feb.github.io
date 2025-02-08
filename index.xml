@@ -6,8 +6,30 @@
     <description>Recent content on 0x1feb</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 06 Feb 2025 23:33:35 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2025 16:53:25 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open WebUI のコンテナをアップデートする</title>
+      <link>https://0x1feb.github.io/posts/2025/02/08/updating-the-open-webui-container/</link>
+      <pubDate>Sat, 08 Feb 2025 16:53:25 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/02/08/updating-the-open-webui-container/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open WebUI のコンテナをアップデートする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;前提&#34;&gt;前提&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
+&lt;li&gt;podman version 4.9.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;既存コンテナの削除&#34;&gt;既存コンテナの削除&lt;/h3&gt;
+&lt;p&gt;コンテナが起動している場合、停止する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;podman stop open-webui
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;現在のコンテナを削除する。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;podman rm open-webui
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Open WebUI で保存していたデータも削除する場合は、以下を実行する。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>SSH 接続で起動した Podman のコンテナを SSH 切断後も停止しないようにする</title>
       <link>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</link>

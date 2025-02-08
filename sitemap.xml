@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2025/02/08/updating-the-open-webui-container/</loc>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/podman/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/</loc>
-    <lastmod>2025-02-06T23:33:35+09:00</lastmod>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/ubuntu/</loc>
+    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</loc>
     <lastmod>2025-02-06T23:33:35+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2025/02/05/upgrading-ubuntu-22.04-lts-to-ubuntu-24.04-lts/</loc>
