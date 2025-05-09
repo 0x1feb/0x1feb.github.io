@@ -4,10 +4,24 @@
     <title>Tags on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/</link>
     <description>Recent content in Tags on 0x1feb</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.147.2</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Feb 2025 16:53:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 09:38:13 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rufus</title>
+      <link>https://0x1feb.github.io/tags/rufus/</link>
+      <pubDate>Fri, 09 May 2025 09:38:13 +0900</pubDate>
+      <guid>https://0x1feb.github.io/tags/rufus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SharedOS</title>
+      <link>https://0x1feb.github.io/tags/sharedos/</link>
+      <pubDate>Fri, 09 May 2025 09:38:13 +0900</pubDate>
+      <guid>https://0x1feb.github.io/tags/sharedos/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Podman</title>
       <link>https://0x1feb.github.io/tags/podman/</link>

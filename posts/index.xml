@@ -4,10 +4,30 @@
     <title>Posts on 0x1feb</title>
     <link>https://0x1feb.github.io/posts/</link>
     <description>Recent content in Posts on 0x1feb</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.147.2</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Feb 2025 16:53:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 09:38:13 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharedOS で HDD/SSD のデータを一括で完全に消去する</title>
+      <link>https://0x1feb.github.io/posts/2025/05/09/how-to-completely-wipe-hdds-and-ssds-at-once-using-sharedos/</link>
+      <pubDate>Fri, 09 May 2025 09:38:13 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/05/09/how-to-completely-wipe-hdds-and-ssds-at-once-using-sharedos/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;通常のファイル削除やディスクのフォーマットでは、データを復元できてしまうことがある。&lt;/li&gt;
+&lt;li&gt;ShredOS を使って、復元を困難にする方法で HDD/SSD のデータを消去する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11 Pro&lt;/li&gt;
+&lt;li&gt;rufus 4.7&lt;/li&gt;
+&lt;li&gt;shredos.x86_64 v0.38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;shredosx86_64-の-実行用ディスク作成&#34;&gt;shredos.x86_64 の 実行用ディスク作成&lt;/h3&gt;
+&lt;p&gt;以下の手順は Windows 11 にて実施した。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Open WebUI のコンテナをアップデートする</title>
       <link>https://0x1feb.github.io/posts/2025/02/08/updating-the-open-webui-container/</link>

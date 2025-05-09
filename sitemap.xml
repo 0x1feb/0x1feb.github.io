@@ -3,21 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
-    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/rufus/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/sharedos/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2025/05/09/how-to-completely-wipe-hdds-and-ssds-at-once-using-sharedos/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/windows/</loc>
+    <lastmod>2025-05-09T09:38:13+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2025/02/08/updating-the-open-webui-container/</loc>
     <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/podman/</loc>
-    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/ubuntu/</loc>
@@ -78,9 +90,6 @@
     <lastmod>2024-11-07T22:40:56+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/10/22/how-to-start-a-process-in-powershell/</loc>
-    <lastmod>2024-10-22T21:35:39+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/categories/windows/</loc>
     <lastmod>2024-10-22T21:35:39+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/outlook/</loc>
@@ -251,10 +260,10 @@
     <loc>https://0x1feb.github.io/categories/shell-script/</loc>
     <lastmod>2024-03-13T09:26:44+09:00</lastmod>
   </url><url>
-    <loc>https://0x1feb.github.io/tags/android/</loc>
+    <loc>https://0x1feb.github.io/categories/android/</loc>
     <lastmod>2024-01-02T20:55:20+09:00</lastmod>
   </url><url>
-    <loc>https://0x1feb.github.io/categories/android/</loc>
+    <loc>https://0x1feb.github.io/tags/android/</loc>
     <lastmod>2024-01-02T20:55:20+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2024/01/02/mirroring-android-to-pc-via-wi-fi/</loc>
