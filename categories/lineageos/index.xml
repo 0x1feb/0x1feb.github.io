@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LineageOS on 0x1feb</title>
+    <link>https://0x1feb.github.io/categories/lineageos/</link>
+    <description>Recent content in LineageOS on 0x1feb</description>
+    <generator>Hugo -- 0.147.2</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 11 May 2025 21:02:09 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/categories/lineageos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixel 3a に LineageOS 22.2 (Android 15) をインストールする</title>
+      <link>https://0x1feb.github.io/posts/2025/05/11/installing-lineageos-22.2-on-pixel-3a/</link>
+      <pubDate>Sun, 11 May 2025 21:02:09 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/05/11/installing-lineageos-22.2-on-pixel-3a/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pixel 3a は Android 12 が最新版となり、以降のバージョンアップは提供されていない。&lt;/li&gt;
+&lt;li&gt;LineageOS 22.2 をインストールすることで、 Android 15 に対応することができる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11 (作業用)&lt;/li&gt;
+&lt;li&gt;Pixel 3a (Android 12)&lt;/li&gt;
+&lt;li&gt;LineageOS 22.2 (Android 15)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.lineageos.org/devices/sargo/install/&#34;&gt;Install LineageOS on sargo ｜ LineageOS Wiki&lt;/a&gt; の手順に沿って進める。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
