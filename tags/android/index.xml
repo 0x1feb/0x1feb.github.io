@@ -4,10 +4,29 @@
     <title>Android on 0x1feb</title>
     <link>https://0x1feb.github.io/tags/android/</link>
     <description>Recent content in Android on 0x1feb</description>
-    <generator>Hugo -- 0.147.2</generator>
+    <generator>Hugo -- 0.147.5</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 11 May 2025 21:02:09 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 21:35:45 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fire HD 10 (7th generation) に LineageOS 16.0 (Android 9) をインストールする</title>
+      <link>https://0x1feb.github.io/posts/2025/05/26/installing-lineageos-16.0-on-fire-hd-10-7th-generation/</link>
+      <pubDate>Mon, 26 May 2025 21:35:45 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/05/26/installing-lineageos-16.0-on-fire-hd-10-7th-generation/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2017 年に発売した Fire HD 10 (7th generation) は Fire OS 5.7.1.0 が最新版となり、Android 5.1 がベースとなっている。&lt;/li&gt;
+&lt;li&gt;LineageOS 16.0 をインストールすることで、 Android 9 に対応することができる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 (作業用)&lt;/li&gt;
+&lt;li&gt;Fire HD 10 (Fire OS 5.7.1.0)&lt;/li&gt;
+&lt;li&gt;LineageOS 16.0 (Android 9)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://xdaforums.com/t/unlock-root-twrp-unbrick-fire-hd-10-2017-suez.3913639/page-87#post-90017177&#34;&gt;[UNLOCK][ROOT][TWRP][UNBRICK] Fire HD 10 2017 (suez)&lt;/a&gt; の手順を参考に進める。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pixel 3a に LineageOS 22.2 (Android 15) をインストールする</title>
       <link>https://0x1feb.github.io/posts/2025/05/11/installing-lineageos-22.2-on-pixel-3a/</link>
