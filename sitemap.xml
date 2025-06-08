@@ -3,24 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://0x1feb.github.io/</loc>
-    <lastmod>2025-05-26T21:35:45+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/android/</loc>
-    <lastmod>2025-05-26T21:35:45+09:00</lastmod>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/pcloud/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/rclone/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/categories/ubuntu/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/posts/2025/06/08/installing-rclone-for-pcloud-on-ubuntu-24.04/</loc>
+    <lastmod>2025-06-08T15:25:32+09:00</lastmod>
+  </url><url>
+    <loc>https://0x1feb.github.io/tags/android/</loc>
     <lastmod>2025-05-26T21:35:45+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2025/05/26/installing-lineageos-16.0-on-fire-hd-10-7th-generation/</loc>
     <lastmod>2025-05-26T21:35:45+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/categories/lineageos/</loc>
-    <lastmod>2025-05-26T21:35:45+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/posts/</loc>
-    <lastmod>2025-05-26T21:35:45+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/tags/</loc>
     <lastmod>2025-05-26T21:35:45+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2025/05/11/installing-lineageos-22.2-on-pixel-3a/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/tags/podman/</loc>
-    <lastmod>2025-02-08T16:53:25+09:00</lastmod>
-  </url><url>
-    <loc>https://0x1feb.github.io/categories/ubuntu/</loc>
     <lastmod>2025-02-08T16:53:25+09:00</lastmod>
   </url><url>
     <loc>https://0x1feb.github.io/posts/2025/02/06/keep-podman-container-running-after-ssh-disconnect/</loc>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PCloud on 0x1feb</title>
+    <link>https://0x1feb.github.io/tags/pcloud/</link>
+    <description>Recent content in PCloud on 0x1feb</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 08 Jun 2025 15:25:32 +0900</lastBuildDate>
+    <atom:link href="https://0x1feb.github.io/tags/pcloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 24.04 に rclone をインストールして CLI で pCloud を操作する</title>
+      <link>https://0x1feb.github.io/posts/2025/06/08/installing-rclone-for-pcloud-on-ubuntu-24.04/</link>
+      <pubDate>Sun, 08 Jun 2025 15:25:32 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/06/08/installing-rclone-for-pcloud-on-ubuntu-24.04/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11 (クライアント)&lt;/li&gt;
+&lt;li&gt;Ubuntu 24.04 (サーバ/rclone インストール先)&lt;/li&gt;
+&lt;li&gt;rclone 1.69.3&lt;/li&gt;
+&lt;li&gt;pCloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;h3 id=&#34;事前確認&#34;&gt;事前確認&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu Server は CLI で運用しているため、クライアントから SSH 接続して作業する。&lt;/li&gt;
+&lt;li&gt;rclone に pCloud を設定するためには、ブラウザでの認証が必要となる。&lt;/li&gt;
+&lt;li&gt;今回の手順では、SSH のローカルポートフォワーディングを使用して、クライアント側のブラウザで認証する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;インストール&#34;&gt;インストール&lt;/h3&gt;
+&lt;p&gt;Ubuntu に rclone をインストールする。インストールは以下を参照した。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
