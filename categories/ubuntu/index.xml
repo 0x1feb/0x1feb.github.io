@@ -6,8 +6,26 @@
     <description>Recent content in Ubuntu on 0x1feb</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 08 Jun 2025 15:25:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 19:28:30 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 24.04 に gocryptfs をインストールして暗号化したファイルシステムを構築する</title>
+      <link>https://0x1feb.github.io/posts/2025/06/09/installing-gocryptfs-on-ubuntu-24.04/</link>
+      <pubDate>Mon, 09 Jun 2025 19:28:30 +0900</pubDate>
+      <guid>https://0x1feb.github.io/posts/2025/06/09/installing-gocryptfs-on-ubuntu-24.04/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 に gocryptfs をインストールする。&lt;/li&gt;
+&lt;li&gt;gocryptfs とは、マウント可能な FUSE ファイルシステムとして実装された、ファイルベースの暗号化ソフトウェアである。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04&lt;/li&gt;
+&lt;li&gt;gocryptfs 2.4.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;手順&#34;&gt;手順&lt;/h2&gt;
+&lt;p&gt;以下を参考にインストールや設定をした。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu 24.04 に rclone をインストールして CLI で pCloud を操作する</title>
       <link>https://0x1feb.github.io/posts/2025/06/08/installing-rclone-for-pcloud-on-ubuntu-24.04/</link>

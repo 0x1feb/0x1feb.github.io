@@ -6,8 +6,15 @@
     <description>Recent content in Tags on 0x1feb</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 08 Jun 2025 15:25:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 19:28:30 +0900</lastBuildDate>
     <atom:link href="https://0x1feb.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gocryptfs</title>
+      <link>https://0x1feb.github.io/tags/gocryptfs/</link>
+      <pubDate>Mon, 09 Jun 2025 19:28:30 +0900</pubDate>
+      <guid>https://0x1feb.github.io/tags/gocryptfs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>PCloud</title>
       <link>https://0x1feb.github.io/tags/pcloud/</link>
